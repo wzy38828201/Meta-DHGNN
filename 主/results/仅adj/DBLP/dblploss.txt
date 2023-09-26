@@ -1,0 +1,73 @@
+ssh://featurize@workspace.featurize.cn:19396/environment/miniconda3/bin/python -u /home/featurize/.pycharm_helpers/pydev/pydevd.py --multiproc --qt-support=auto --client 0.0.0.0 --port 41221 --file /tmp/pycharm_project_167/mainDBLP.py
+已连接到 pydev 调试器(内部版本号 211.7442.45)Using backend: pytorch
+{'lr': 0.003, 'lr2': 0.007, 'num_heads': [8], 'hidden_units': 8, 'dropout': 0.6, 'weight_decay': 0.003, 'weight_decay2': 0.0001, 'num_epochs': 50, 'num_epochs1': 20, 'patience': 100}
+Created directory results/DBLP_2022-11-25_19-23-13
+DBLP dataset loaded
+{'dataset': 'DBLP',
+ 'test': 0.7042149371456742,
+ 'train': 0.19719004190288392,
+ 'val': 0.09859502095144196}
+bbbbb
+/environment/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/environment/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/environment/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 1 | Train Loss 1.3954 | Train Micro f1 0.2313 | Train Macro f1 0.1453 | Val Loss 1.3619 | Val Micro f1 0.4475 | Val Macro f1 0.3714
+a0
+/environment/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/environment/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/environment/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 2 | Train Loss 1.3695 | Train Micro f1 0.3488 | Train Macro f1 0.3012 | Val Loss 1.3312 | Val Micro f1 0.5375 | Val Macro f1 0.4651
+a0
+Epoch 3 | Train Loss 1.3372 | Train Micro f1 0.4025 | Train Macro f1 0.3544 | Val Loss 1.2907 | Val Micro f1 0.6100 | Val Macro f1 0.5830
+a0
+Epoch 4 | Train Loss 1.2915 | Train Micro f1 0.5025 | Train Macro f1 0.4800 | Val Loss 1.2318 | Val Micro f1 0.6625 | Val Macro f1 0.6587
+a0
+Epoch 5 | Train Loss 1.2480 | Train Micro f1 0.5250 | Train Macro f1 0.5222 | Val Loss 1.1412 | Val Micro f1 0.6650 | Val Macro f1 0.6622
+a0
+Epoch 6 | Train Loss 1.1781 | Train Micro f1 0.5687 | Train Macro f1 0.5709 | Val Loss 1.0490 | Val Micro f1 0.6750 | Val Macro f1 0.6712
+a0
+Epoch 7 | Train Loss 1.1123 | Train Micro f1 0.5750 | Train Macro f1 0.5736 | Val Loss 0.9731 | Val Micro f1 0.7100 | Val Macro f1 0.7084
+a0
+Epoch 8 | Train Loss 1.0383 | Train Micro f1 0.5988 | Train Macro f1 0.5985 | Val Loss 0.9074 | Val Micro f1 0.7425 | Val Macro f1 0.7420
+a0
+Epoch 9 | Train Loss 0.9975 | Train Micro f1 0.6438 | Train Macro f1 0.6438 | Val Loss 0.8593 | Val Micro f1 0.7825 | Val Macro f1 0.7825
+a0
+Epoch 10 | Train Loss 0.9802 | Train Micro f1 0.6525 | Train Macro f1 0.6526 | Val Loss 0.8249 | Val Micro f1 0.7750 | Val Macro f1 0.7748
+a0
+Epoch 11 | Train Loss 0.9122 | Train Micro f1 0.6613 | Train Macro f1 0.6620 | Val Loss 0.7981 | Val Micro f1 0.7950 | Val Macro f1 0.7947
+a0
+Epoch 12 | Train Loss 0.8814 | Train Micro f1 0.6700 | Train Macro f1 0.6712 | Val Loss 0.7716 | Val Micro f1 0.7775 | Val Macro f1 0.7772
+a0
+Epoch 13 | Train Loss 0.8844 | Train Micro f1 0.6837 | Train Macro f1 0.6845 | Val Loss 0.7451 | Val Micro f1 0.7750 | Val Macro f1 0.7746
+a0
+Epoch 14 | Train Loss 0.8470 | Train Micro f1 0.7050 | Train Macro f1 0.7064 | Val Loss 0.7215 | Val Micro f1 0.7675 | Val Macro f1 0.7647
+a0
+Epoch 15 | Train Loss 0.8143 | Train Micro f1 0.7050 | Train Macro f1 0.7068 | Val Loss 0.6983 | Val Micro f1 0.7725 | Val Macro f1 0.7700
+a0
+Epoch 16 | Train Loss 0.7899 | Train Micro f1 0.7050 | Train Macro f1 0.7050 | Val Loss 0.6783 | Val Micro f1 0.7825 | Val Macro f1 0.7797
+a0
+Epoch 17 | Train Loss 0.7890 | Train Micro f1 0.7050 | Train Macro f1 0.7061 | Val Loss 0.6614 | Val Micro f1 0.7775 | Val Macro f1 0.7749
+a0
+Epoch 18 | Train Loss 0.7617 | Train Micro f1 0.7150 | Train Macro f1 0.7145 | Val Loss 0.6473 | Val Micro f1 0.7875 | Val Macro f1 0.7857
+a0
+Epoch 19 | Train Loss 0.7577 | Train Micro f1 0.7013 | Train Macro f1 0.7016 | Val Loss 0.6362 | Val Micro f1 0.7875 | Val Macro f1 0.7868
+a0
+Epoch 20 | Train Loss 0.7526 | Train Micro f1 0.7175 | Train Macro f1 0.7178 | Val Loss 0.6275 | Val Micro f1 0.7850 | Val Macro f1 0.7847
+a0
+a1
+a2
+Test loss 0.6423 | Test Micro f1 0.7938 | Test Macro f1 0.7832
+              precision    recall  f1-score   support
+           0     0.8629    0.8071    0.8341       897
+           1     0.6213    0.7596    0.6835       445
+           2     0.8005    0.7985    0.7995       809
+           3     0.8396    0.7932    0.8157       706
+    accuracy                         0.7938      2857
+   macro avg     0.7811    0.7896    0.7832      2857
+weighted avg     0.8018    0.7938    0.7963      2857

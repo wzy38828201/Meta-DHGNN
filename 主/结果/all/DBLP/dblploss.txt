@@ -1,0 +1,1073 @@
+Using backend: pytorch
+{'lr': 0.003, 'lr2': 0.003, 'num_heads': [8], 'hidden_units': 8, 'dropout': 0.6, 'weight_decay': 0.003, 'weight_decay2': 0.003, 'num_epochs': 50, 'num_epochs1': 50, 'patience': 100}
+Created directory results/DBLP_2022-10-24_16-24-15
+DBLP dataset loaded
+{'dataset': 'DBLP',
+ 'test': 0.7042149371456742,
+ 'train': 0.2745871333497658,
+ 'val': 0.09859502095144196}
+bbbbb
+Epoch 1 | Train Loss 1.4030 | Train Micro f1 0.2450 | Train Macro f1 0.1816 | Val Loss 1.3806 | Val Micro f1 0.2560 | Val Macro f1 0.1298
+Epoch 2 | Train Loss 1.3962 | Train Micro f1 0.2800 | Train Macro f1 0.2623 | Val Loss 1.3654 | Val Micro f1 0.3731 | Val Macro f1 0.2879
+Epoch 3 | Train Loss 1.3672 | Train Micro f1 0.3300 | Train Macro f1 0.2944 | Val Loss 1.3574 | Val Micro f1 0.4256 | Val Macro f1 0.4064
+Epoch 4 | Train Loss 1.3502 | Train Micro f1 0.3800 | Train Macro f1 0.3635 | Val Loss 1.3460 | Val Micro f1 0.4519 | Val Macro f1 0.4347
+Epoch 5 | Train Loss 1.3554 | Train Micro f1 0.3550 | Train Macro f1 0.3462 | Val Loss 1.3349 | Val Micro f1 0.4562 | Val Macro f1 0.4196
+Epoch 6 | Train Loss 1.3631 | Train Micro f1 0.3250 | Train Macro f1 0.3191 | Val Loss 1.3238 | Val Micro f1 0.4562 | Val Macro f1 0.4034
+Epoch 7 | Train Loss 1.3019 | Train Micro f1 0.4750 | Train Macro f1 0.4654 | Val Loss 1.3116 | Val Micro f1 0.4694 | Val Macro f1 0.4116
+Epoch 8 | Train Loss 1.3126 | Train Micro f1 0.4800 | Train Macro f1 0.4713 | Val Loss 1.2969 | Val Micro f1 0.4737 | Val Macro f1 0.4119
+Epoch 9 | Train Loss 1.3015 | Train Micro f1 0.3900 | Train Macro f1 0.3460 | Val Loss 1.2811 | Val Micro f1 0.4869 | Val Macro f1 0.4283
+Epoch 10 | Train Loss 1.2784 | Train Micro f1 0.4600 | Train Macro f1 0.4380 | Val Loss 1.2614 | Val Micro f1 0.5098 | Val Macro f1 0.4601
+Epoch 11 | Train Loss 1.2524 | Train Micro f1 0.4550 | Train Macro f1 0.4314 | Val Loss 1.2411 | Val Micro f1 0.5306 | Val Macro f1 0.4821
+Epoch 12 | Train Loss 1.2243 | Train Micro f1 0.4750 | Train Macro f1 0.4513 | Val Loss 1.2186 | Val Micro f1 0.5536 | Val Macro f1 0.5094
+Epoch 13 | Train Loss 1.2079 | Train Micro f1 0.4800 | Train Macro f1 0.4579 | Val Loss 1.1969 | Val Micro f1 0.5667 | Val Macro f1 0.5253
+Epoch 14 | Train Loss 1.1722 | Train Micro f1 0.5500 | Train Macro f1 0.5323 | Val Loss 1.1754 | Val Micro f1 0.5832 | Val Macro f1 0.5482
+Epoch 15 | Train Loss 1.1884 | Train Micro f1 0.4850 | Train Macro f1 0.4713 | Val Loss 1.1538 | Val Micro f1 0.5963 | Val Macro f1 0.5639
+Epoch 16 | Train Loss 1.1419 | Train Micro f1 0.5650 | Train Macro f1 0.5568 | Val Loss 1.1332 | Val Micro f1 0.6072 | Val Macro f1 0.5803
+Epoch 17 | Train Loss 1.0989 | Train Micro f1 0.5950 | Train Macro f1 0.5934 | Val Loss 1.1127 | Val Micro f1 0.6204 | Val Macro f1 0.5971
+Epoch 18 | Train Loss 1.0873 | Train Micro f1 0.5850 | Train Macro f1 0.5790 | Val Loss 1.0922 | Val Micro f1 0.6400 | Val Macro f1 0.6213
+Epoch 19 | Train Loss 1.0808 | Train Micro f1 0.6250 | Train Macro f1 0.6186 | Val Loss 1.0732 | Val Micro f1 0.6510 | Val Macro f1 0.6357
+Epoch 20 | Train Loss 1.0738 | Train Micro f1 0.5850 | Train Macro f1 0.5744 | Val Loss 1.0540 | Val Micro f1 0.6663 | Val Macro f1 0.6535
+Epoch 21 | Train Loss 1.0151 | Train Micro f1 0.6300 | Train Macro f1 0.6260 | Val Loss 1.0363 | Val Micro f1 0.6849 | Val Macro f1 0.6755
+Epoch 22 | Train Loss 1.0213 | Train Micro f1 0.6100 | Train Macro f1 0.6069 | Val Loss 1.0185 | Val Micro f1 0.6980 | Val Macro f1 0.6903
+Epoch 23 | Train Loss 0.9754 | Train Micro f1 0.7300 | Train Macro f1 0.7269 | Val Loss 1.0009 | Val Micro f1 0.7057 | Val Macro f1 0.6996
+Epoch 24 | Train Loss 0.9917 | Train Micro f1 0.6550 | Train Macro f1 0.6535 | Val Loss 0.9844 | Val Micro f1 0.7101 | Val Macro f1 0.7047
+Epoch 25 | Train Loss 0.9945 | Train Micro f1 0.6750 | Train Macro f1 0.6758 | Val Loss 0.9670 | Val Micro f1 0.7155 | Val Macro f1 0.7110
+Epoch 26 | Train Loss 0.9351 | Train Micro f1 0.6850 | Train Macro f1 0.6812 | Val Loss 0.9514 | Val Micro f1 0.7221 | Val Macro f1 0.7178
+Epoch 27 | Train Loss 0.8623 | Train Micro f1 0.7200 | Train Macro f1 0.7195 | Val Loss 0.9360 | Val Micro f1 0.7254 | Val Macro f1 0.7211
+Epoch 28 | Train Loss 0.8746 | Train Micro f1 0.7000 | Train Macro f1 0.6982 | Val Loss 0.9216 | Val Micro f1 0.7309 | Val Macro f1 0.7275
+Epoch 29 | Train Loss 0.8902 | Train Micro f1 0.7200 | Train Macro f1 0.7192 | Val Loss 0.9081 | Val Micro f1 0.7363 | Val Macro f1 0.7330
+Epoch 30 | Train Loss 0.8643 | Train Micro f1 0.7400 | Train Macro f1 0.7403 | Val Loss 0.8972 | Val Micro f1 0.7319 | Val Macro f1 0.7287
+Epoch 31 | Train Loss 0.8308 | Train Micro f1 0.7350 | Train Macro f1 0.7342 | Val Loss 0.8862 | Val Micro f1 0.7341 | Val Macro f1 0.7311
+Epoch 32 | Train Loss 0.8523 | Train Micro f1 0.7250 | Train Macro f1 0.7220 | Val Loss 0.8759 | Val Micro f1 0.7287 | Val Macro f1 0.7259
+Epoch 33 | Train Loss 0.8075 | Train Micro f1 0.7300 | Train Macro f1 0.7300 | Val Loss 0.8653 | Val Micro f1 0.7309 | Val Macro f1 0.7277
+Epoch 34 | Train Loss 0.8287 | Train Micro f1 0.7250 | Train Macro f1 0.7259 | Val Loss 0.8567 | Val Micro f1 0.7341 | Val Macro f1 0.7309
+Epoch 35 | Train Loss 0.8123 | Train Micro f1 0.7150 | Train Macro f1 0.7150 | Val Loss 0.8463 | Val Micro f1 0.7396 | Val Macro f1 0.7361
+Epoch 36 | Train Loss 0.7509 | Train Micro f1 0.7400 | Train Macro f1 0.7389 | Val Loss 0.8381 | Val Micro f1 0.7407 | Val Macro f1 0.7368
+Epoch 37 | Train Loss 0.7718 | Train Micro f1 0.7400 | Train Macro f1 0.7409 | Val Loss 0.8309 | Val Micro f1 0.7429 | Val Macro f1 0.7386
+Epoch 38 | Train Loss 0.7739 | Train Micro f1 0.7600 | Train Macro f1 0.7608 | Val Loss 0.8232 | Val Micro f1 0.7440 | Val Macro f1 0.7397
+Epoch 39 | Train Loss 0.7199 | Train Micro f1 0.7650 | Train Macro f1 0.7673 | Val Loss 0.8155 | Val Micro f1 0.7429 | Val Macro f1 0.7386
+Epoch 40 | Train Loss 0.6922 | Train Micro f1 0.7900 | Train Macro f1 0.7886 | Val Loss 0.8088 | Val Micro f1 0.7429 | Val Macro f1 0.7388
+Epoch 41 | Train Loss 0.7385 | Train Micro f1 0.7750 | Train Macro f1 0.7786 | Val Loss 0.8032 | Val Micro f1 0.7462 | Val Macro f1 0.7425
+Epoch 42 | Train Loss 0.7130 | Train Micro f1 0.7600 | Train Macro f1 0.7597 | Val Loss 0.7982 | Val Micro f1 0.7473 | Val Macro f1 0.7435
+Epoch 43 | Train Loss 0.6824 | Train Micro f1 0.7850 | Train Macro f1 0.7849 | Val Loss 0.7938 | Val Micro f1 0.7473 | Val Macro f1 0.7438
+Epoch 44 | Train Loss 0.6837 | Train Micro f1 0.7800 | Train Macro f1 0.7810 | Val Loss 0.7909 | Val Micro f1 0.7418 | Val Macro f1 0.7386
+Epoch 45 | Train Loss 0.6510 | Train Micro f1 0.7800 | Train Macro f1 0.7802 | Val Loss 0.7862 | Val Micro f1 0.7418 | Val Macro f1 0.7388
+Epoch 46 | Train Loss 0.6995 | Train Micro f1 0.7800 | Train Macro f1 0.7804 | Val Loss 0.7825 | Val Micro f1 0.7396 | Val Macro f1 0.7368
+Epoch 47 | Train Loss 0.6592 | Train Micro f1 0.8100 | Train Macro f1 0.8104 | Val Loss 0.7816 | Val Micro f1 0.7374 | Val Macro f1 0.7352
+Epoch 48 | Train Loss 0.7158 | Train Micro f1 0.7700 | Train Macro f1 0.7677 | Val Loss 0.7789 | Val Micro f1 0.7341 | Val Macro f1 0.7321
+Epoch 49 | Train Loss 0.6264 | Train Micro f1 0.7650 | Train Macro f1 0.7666 | Val Loss 0.7768 | Val Micro f1 0.7363 | Val Macro f1 0.7344
+Epoch 50 | Train Loss 0.6329 | Train Micro f1 0.7900 | Train Macro f1 0.7915 | Val Loss 0.7740 | Val Micro f1 0.7352 | Val Macro f1 0.7333
+Epoch 1 | Train Loss 0.9113 | Train Micro f1 0.6800 | Train Macro f1 0.6813 | Val Loss 0.6960 | Val Micro f1 0.7681 | Val Macro f1 0.7670
+Epoch 2 | Train Loss 1.0168 | Train Micro f1 0.6000 | Train Macro f1 0.6015 | Val Loss 0.6929 | Val Micro f1 0.7648 | Val Macro f1 0.7641
+Epoch 3 | Train Loss 0.9175 | Train Micro f1 0.6450 | Train Macro f1 0.6491 | Val Loss 0.6891 | Val Micro f1 0.7637 | Val Macro f1 0.7628
+Epoch 4 | Train Loss 0.9403 | Train Micro f1 0.6650 | Train Macro f1 0.6671 | Val Loss 0.6830 | Val Micro f1 0.7637 | Val Macro f1 0.7622
+Epoch 5 | Train Loss 0.9073 | Train Micro f1 0.6600 | Train Macro f1 0.6649 | Val Loss 0.6786 | Val Micro f1 0.7691 | Val Macro f1 0.7679
+Epoch 6 | Train Loss 1.0623 | Train Micro f1 0.6150 | Train Macro f1 0.6206 | Val Loss 0.6758 | Val Micro f1 0.7746 | Val Macro f1 0.7730
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.9409 | Train Micro f1 0.6700 | Train Macro f1 0.6719 | Val Loss 0.6771 | Val Micro f1 0.7713 | Val Macro f1 0.7701
+Epoch 8 | Train Loss 0.8877 | Train Micro f1 0.6400 | Train Macro f1 0.6409 | Val Loss 0.6757 | Val Micro f1 0.7724 | Val Macro f1 0.7709
+Epoch 9 | Train Loss 0.8979 | Train Micro f1 0.6250 | Train Macro f1 0.6283 | Val Loss 0.6754 | Val Micro f1 0.7746 | Val Macro f1 0.7726
+Epoch 10 | Train Loss 0.8793 | Train Micro f1 0.6450 | Train Macro f1 0.6476 | Val Loss 0.6755 | Val Micro f1 0.7746 | Val Macro f1 0.7718
+Epoch 11 | Train Loss 0.9478 | Train Micro f1 0.6300 | Train Macro f1 0.6342 | Val Loss 0.6759 | Val Micro f1 0.7757 | Val Macro f1 0.7729
+Epoch 12 | Train Loss 0.8775 | Train Micro f1 0.6800 | Train Macro f1 0.6829 | Val Loss 0.6783 | Val Micro f1 0.7757 | Val Macro f1 0.7727
+Epoch 13 | Train Loss 0.8610 | Train Micro f1 0.6500 | Train Macro f1 0.6538 | Val Loss 0.6795 | Val Micro f1 0.7757 | Val Macro f1 0.7724
+Epoch 14 | Train Loss 0.8544 | Train Micro f1 0.6400 | Train Macro f1 0.6434 | Val Loss 0.6784 | Val Micro f1 0.7768 | Val Macro f1 0.7732
+Epoch 15 | Train Loss 0.8312 | Train Micro f1 0.6750 | Train Macro f1 0.6761 | Val Loss 0.6747 | Val Micro f1 0.7746 | Val Macro f1 0.7711
+Epoch 16 | Train Loss 0.7657 | Train Micro f1 0.7600 | Train Macro f1 0.7639 | Val Loss 0.6688 | Val Micro f1 0.7757 | Val Macro f1 0.7723
+Epoch 17 | Train Loss 0.8413 | Train Micro f1 0.6600 | Train Macro f1 0.6627 | Val Loss 0.6642 | Val Micro f1 0.7768 | Val Macro f1 0.7733
+Epoch 18 | Train Loss 0.7941 | Train Micro f1 0.6800 | Train Macro f1 0.6796 | Val Loss 0.6601 | Val Micro f1 0.7779 | Val Macro f1 0.7741
+Epoch 19 | Train Loss 0.7591 | Train Micro f1 0.6750 | Train Macro f1 0.6759 | Val Loss 0.6569 | Val Micro f1 0.7790 | Val Macro f1 0.7750
+Epoch 20 | Train Loss 0.7327 | Train Micro f1 0.7400 | Train Macro f1 0.7406 | Val Loss 0.6549 | Val Micro f1 0.7790 | Val Macro f1 0.7751
+Epoch 21 | Train Loss 0.7777 | Train Micro f1 0.7250 | Train Macro f1 0.7253 | Val Loss 0.6531 | Val Micro f1 0.7790 | Val Macro f1 0.7752
+Epoch 22 | Train Loss 0.7539 | Train Micro f1 0.7400 | Train Macro f1 0.7398 | Val Loss 0.6511 | Val Micro f1 0.7735 | Val Macro f1 0.7694
+Epoch 23 | Train Loss 0.7790 | Train Micro f1 0.7000 | Train Macro f1 0.7030 | Val Loss 0.6501 | Val Micro f1 0.7724 | Val Macro f1 0.7680
+Epoch 24 | Train Loss 0.7369 | Train Micro f1 0.7650 | Train Macro f1 0.7658 | Val Loss 0.6485 | Val Micro f1 0.7746 | Val Macro f1 0.7700
+Epoch 25 | Train Loss 0.6810 | Train Micro f1 0.7500 | Train Macro f1 0.7499 | Val Loss 0.6481 | Val Micro f1 0.7746 | Val Macro f1 0.7700
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.6976 | Train Micro f1 0.7350 | Train Macro f1 0.7355 | Val Loss 0.6489 | Val Micro f1 0.7757 | Val Macro f1 0.7710
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.7531 | Train Micro f1 0.7250 | Train Macro f1 0.7255 | Val Loss 0.6489 | Val Micro f1 0.7746 | Val Macro f1 0.7700
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.6831 | Train Micro f1 0.7700 | Train Macro f1 0.7723 | Val Loss 0.6499 | Val Micro f1 0.7757 | Val Macro f1 0.7716
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.7225 | Train Micro f1 0.7400 | Train Macro f1 0.7399 | Val Loss 0.6511 | Val Micro f1 0.7724 | Val Macro f1 0.7684
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.6645 | Train Micro f1 0.7700 | Train Macro f1 0.7704 | Val Loss 0.6520 | Val Micro f1 0.7735 | Val Macro f1 0.7698
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.6894 | Train Micro f1 0.7700 | Train Macro f1 0.7698 | Val Loss 0.6533 | Val Micro f1 0.7757 | Val Macro f1 0.7721
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.7326 | Train Micro f1 0.7400 | Train Macro f1 0.7399 | Val Loss 0.6543 | Val Micro f1 0.7735 | Val Macro f1 0.7699
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.7365 | Train Micro f1 0.7350 | Train Macro f1 0.7340 | Val Loss 0.6559 | Val Micro f1 0.7768 | Val Macro f1 0.7731
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.6965 | Train Micro f1 0.7600 | Train Macro f1 0.7595 | Val Loss 0.6568 | Val Micro f1 0.7735 | Val Macro f1 0.7698
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.7146 | Train Micro f1 0.7450 | Train Macro f1 0.7466 | Val Loss 0.6574 | Val Micro f1 0.7713 | Val Macro f1 0.7674
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.7098 | Train Micro f1 0.7600 | Train Macro f1 0.7606 | Val Loss 0.6572 | Val Micro f1 0.7681 | Val Macro f1 0.7636
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.6872 | Train Micro f1 0.7750 | Train Macro f1 0.7752 | Val Loss 0.6573 | Val Micro f1 0.7691 | Val Macro f1 0.7644
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.6351 | Train Micro f1 0.7750 | Train Macro f1 0.7767 | Val Loss 0.6573 | Val Micro f1 0.7691 | Val Macro f1 0.7642
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.6579 | Train Micro f1 0.7800 | Train Macro f1 0.7801 | Val Loss 0.6563 | Val Micro f1 0.7670 | Val Macro f1 0.7616
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.6948 | Train Micro f1 0.7100 | Train Macro f1 0.7103 | Val Loss 0.6556 | Val Micro f1 0.7691 | Val Macro f1 0.7635
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.6644 | Train Micro f1 0.7500 | Train Macro f1 0.7494 | Val Loss 0.6554 | Val Micro f1 0.7691 | Val Macro f1 0.7619
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.6681 | Train Micro f1 0.7250 | Train Macro f1 0.7257 | Val Loss 0.6560 | Val Micro f1 0.7681 | Val Macro f1 0.7607
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.6506 | Train Micro f1 0.7400 | Train Macro f1 0.7420 | Val Loss 0.6564 | Val Micro f1 0.7691 | Val Macro f1 0.7612
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.6400 | Train Micro f1 0.7750 | Train Macro f1 0.7739 | Val Loss 0.6577 | Val Micro f1 0.7681 | Val Macro f1 0.7598
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.6879 | Train Micro f1 0.7450 | Train Macro f1 0.7465 | Val Loss 0.6579 | Val Micro f1 0.7713 | Val Macro f1 0.7636
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.6176 | Train Micro f1 0.7900 | Train Macro f1 0.7907 | Val Loss 0.6588 | Val Micro f1 0.7691 | Val Macro f1 0.7610
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.6281 | Train Micro f1 0.8000 | Train Macro f1 0.8007 | Val Loss 0.6595 | Val Micro f1 0.7702 | Val Macro f1 0.7622
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.6899 | Train Micro f1 0.7550 | Train Macro f1 0.7591 | Val Loss 0.6596 | Val Micro f1 0.7702 | Val Macro f1 0.7624
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.5999 | Train Micro f1 0.7750 | Train Macro f1 0.7740 | Val Loss 0.6607 | Val Micro f1 0.7670 | Val Macro f1 0.7587
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.6153 | Train Micro f1 0.7850 | Train Macro f1 0.7851 | Val Loss 0.6609 | Val Micro f1 0.7702 | Val Macro f1 0.7627
+Epoch 1 | Train Loss 0.7590 | Train Micro f1 0.7050 | Train Macro f1 0.7065 | Val Loss 0.6182 | Val Micro f1 0.7867 | Val Macro f1 0.7804
+Epoch 2 | Train Loss 0.7638 | Train Micro f1 0.7300 | Train Macro f1 0.7285 | Val Loss 0.6169 | Val Micro f1 0.7834 | Val Macro f1 0.7772
+Epoch 3 | Train Loss 0.8760 | Train Micro f1 0.6550 | Train Macro f1 0.6554 | Val Loss 0.6167 | Val Micro f1 0.7801 | Val Macro f1 0.7737
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 4 | Train Loss 0.8148 | Train Micro f1 0.7150 | Train Macro f1 0.7171 | Val Loss 0.6184 | Val Micro f1 0.7801 | Val Macro f1 0.7736
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.7585 | Train Micro f1 0.7050 | Train Macro f1 0.7030 | Val Loss 0.6210 | Val Micro f1 0.7801 | Val Macro f1 0.7735
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.7325 | Train Micro f1 0.7100 | Train Macro f1 0.7114 | Val Loss 0.6245 | Val Micro f1 0.7724 | Val Macro f1 0.7646
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.7391 | Train Micro f1 0.7300 | Train Macro f1 0.7304 | Val Loss 0.6284 | Val Micro f1 0.7779 | Val Macro f1 0.7700
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.7829 | Train Micro f1 0.7350 | Train Macro f1 0.7335 | Val Loss 0.6329 | Val Micro f1 0.7790 | Val Macro f1 0.7713
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.7373 | Train Micro f1 0.7200 | Train Macro f1 0.7168 | Val Loss 0.6355 | Val Micro f1 0.7779 | Val Macro f1 0.7705
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.7057 | Train Micro f1 0.7400 | Train Macro f1 0.7380 | Val Loss 0.6373 | Val Micro f1 0.7735 | Val Macro f1 0.7670
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.7553 | Train Micro f1 0.7350 | Train Macro f1 0.7334 | Val Loss 0.6373 | Val Micro f1 0.7713 | Val Macro f1 0.7652
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.7199 | Train Micro f1 0.7400 | Train Macro f1 0.7365 | Val Loss 0.6365 | Val Micro f1 0.7691 | Val Macro f1 0.7643
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.6738 | Train Micro f1 0.7650 | Train Macro f1 0.7657 | Val Loss 0.6342 | Val Micro f1 0.7691 | Val Macro f1 0.7649
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.6397 | Train Micro f1 0.7650 | Train Macro f1 0.7648 | Val Loss 0.6314 | Val Micro f1 0.7691 | Val Macro f1 0.7652
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.6425 | Train Micro f1 0.7550 | Train Macro f1 0.7565 | Val Loss 0.6281 | Val Micro f1 0.7681 | Val Macro f1 0.7644
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.6685 | Train Micro f1 0.7450 | Train Macro f1 0.7452 | Val Loss 0.6259 | Val Micro f1 0.7713 | Val Macro f1 0.7677
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.7149 | Train Micro f1 0.7250 | Train Macro f1 0.7247 | Val Loss 0.6244 | Val Micro f1 0.7735 | Val Macro f1 0.7704
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.6892 | Train Micro f1 0.7350 | Train Macro f1 0.7379 | Val Loss 0.6235 | Val Micro f1 0.7757 | Val Macro f1 0.7726
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.6035 | Train Micro f1 0.7650 | Train Macro f1 0.7671 | Val Loss 0.6231 | Val Micro f1 0.7746 | Val Macro f1 0.7715
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.6355 | Train Micro f1 0.7600 | Train Macro f1 0.7628 | Val Loss 0.6236 | Val Micro f1 0.7768 | Val Macro f1 0.7730
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.6448 | Train Micro f1 0.7650 | Train Macro f1 0.7657 | Val Loss 0.6252 | Val Micro f1 0.7735 | Val Macro f1 0.7697
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.6183 | Train Micro f1 0.7900 | Train Macro f1 0.7911 | Val Loss 0.6276 | Val Micro f1 0.7724 | Val Macro f1 0.7683
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.6329 | Train Micro f1 0.7700 | Train Macro f1 0.7717 | Val Loss 0.6306 | Val Micro f1 0.7691 | Val Macro f1 0.7650
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.6822 | Train Micro f1 0.7500 | Train Macro f1 0.7511 | Val Loss 0.6336 | Val Micro f1 0.7648 | Val Macro f1 0.7598
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.6669 | Train Micro f1 0.7400 | Train Macro f1 0.7382 | Val Loss 0.6361 | Val Micro f1 0.7648 | Val Macro f1 0.7597
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.6345 | Train Micro f1 0.8050 | Train Macro f1 0.8056 | Val Loss 0.6377 | Val Micro f1 0.7626 | Val Macro f1 0.7576
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.5267 | Train Micro f1 0.8400 | Train Macro f1 0.8413 | Val Loss 0.6389 | Val Micro f1 0.7626 | Val Macro f1 0.7575
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.5872 | Train Micro f1 0.8200 | Train Macro f1 0.8204 | Val Loss 0.6398 | Val Micro f1 0.7615 | Val Macro f1 0.7563
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.5288 | Train Micro f1 0.8200 | Train Macro f1 0.8191 | Val Loss 0.6390 | Val Micro f1 0.7615 | Val Macro f1 0.7566
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.5372 | Train Micro f1 0.7950 | Train Macro f1 0.7968 | Val Loss 0.6380 | Val Micro f1 0.7604 | Val Macro f1 0.7557
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.6112 | Train Micro f1 0.7800 | Train Macro f1 0.7799 | Val Loss 0.6372 | Val Micro f1 0.7648 | Val Macro f1 0.7605
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.5696 | Train Micro f1 0.8150 | Train Macro f1 0.8154 | Val Loss 0.6365 | Val Micro f1 0.7637 | Val Macro f1 0.7597
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.5696 | Train Micro f1 0.8050 | Train Macro f1 0.8056 | Val Loss 0.6361 | Val Micro f1 0.7637 | Val Macro f1 0.7597
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.5767 | Train Micro f1 0.7750 | Train Macro f1 0.7748 | Val Loss 0.6357 | Val Micro f1 0.7659 | Val Macro f1 0.7621
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.5501 | Train Micro f1 0.8100 | Train Macro f1 0.8123 | Val Loss 0.6364 | Val Micro f1 0.7681 | Val Macro f1 0.7646
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.5000 | Train Micro f1 0.8450 | Train Macro f1 0.8460 | Val Loss 0.6374 | Val Micro f1 0.7670 | Val Macro f1 0.7636
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.5745 | Train Micro f1 0.7650 | Train Macro f1 0.7657 | Val Loss 0.6384 | Val Micro f1 0.7615 | Val Macro f1 0.7575
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.4817 | Train Micro f1 0.8250 | Train Macro f1 0.8255 | Val Loss 0.6390 | Val Micro f1 0.7615 | Val Macro f1 0.7575
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.5528 | Train Micro f1 0.7950 | Train Macro f1 0.7954 | Val Loss 0.6406 | Val Micro f1 0.7593 | Val Macro f1 0.7548
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.5337 | Train Micro f1 0.8400 | Train Macro f1 0.8403 | Val Loss 0.6419 | Val Micro f1 0.7615 | Val Macro f1 0.7568
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.5022 | Train Micro f1 0.8350 | Train Macro f1 0.8360 | Val Loss 0.6419 | Val Micro f1 0.7593 | Val Macro f1 0.7547
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.5602 | Train Micro f1 0.7950 | Train Macro f1 0.7963 | Val Loss 0.6423 | Val Micro f1 0.7604 | Val Macro f1 0.7556
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.5287 | Train Micro f1 0.8250 | Train Macro f1 0.8257 | Val Loss 0.6431 | Val Micro f1 0.7604 | Val Macro f1 0.7556
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.5306 | Train Micro f1 0.8250 | Train Macro f1 0.8266 | Val Loss 0.6436 | Val Micro f1 0.7604 | Val Macro f1 0.7556
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.4881 | Train Micro f1 0.8150 | Train Macro f1 0.8160 | Val Loss 0.6433 | Val Micro f1 0.7604 | Val Macro f1 0.7559
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.5026 | Train Micro f1 0.8200 | Train Macro f1 0.8219 | Val Loss 0.6433 | Val Micro f1 0.7615 | Val Macro f1 0.7569
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.5400 | Train Micro f1 0.8300 | Train Macro f1 0.8302 | Val Loss 0.6428 | Val Micro f1 0.7637 | Val Macro f1 0.7592
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.5028 | Train Micro f1 0.7950 | Train Macro f1 0.7958 | Val Loss 0.6428 | Val Micro f1 0.7648 | Val Macro f1 0.7604
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.5345 | Train Micro f1 0.7900 | Train Macro f1 0.7912 | Val Loss 0.6430 | Val Micro f1 0.7648 | Val Macro f1 0.7607
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.5377 | Train Micro f1 0.8050 | Train Macro f1 0.8049 | Val Loss 0.6434 | Val Micro f1 0.7659 | Val Macro f1 0.7622
+Epoch 1 | Train Loss 0.9473 | Train Micro f1 0.6500 | Train Macro f1 0.6493 | Val Loss 0.5691 | Val Micro f1 0.8042 | Val Macro f1 0.8006
+Epoch 2 | Train Loss 0.9288 | Train Micro f1 0.6150 | Train Macro f1 0.6131 | Val Loss 0.5691 | Val Micro f1 0.8009 | Val Macro f1 0.7978
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 3 | Train Loss 0.7879 | Train Micro f1 0.7300 | Train Macro f1 0.7309 | Val Loss 0.5733 | Val Micro f1 0.8020 | Val Macro f1 0.7996
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 4 | Train Loss 0.8874 | Train Micro f1 0.6350 | Train Macro f1 0.6318 | Val Loss 0.5843 | Val Micro f1 0.7976 | Val Macro f1 0.7963
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.8278 | Train Micro f1 0.6950 | Train Macro f1 0.6944 | Val Loss 0.6007 | Val Micro f1 0.7910 | Val Macro f1 0.7904
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.8210 | Train Micro f1 0.7100 | Train Macro f1 0.7071 | Val Loss 0.6158 | Val Micro f1 0.7823 | Val Macro f1 0.7821
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.8701 | Train Micro f1 0.6750 | Train Macro f1 0.6729 | Val Loss 0.6250 | Val Micro f1 0.7801 | Val Macro f1 0.7800
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.7277 | Train Micro f1 0.7550 | Train Macro f1 0.7542 | Val Loss 0.6298 | Val Micro f1 0.7834 | Val Macro f1 0.7831
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.7480 | Train Micro f1 0.6950 | Train Macro f1 0.6905 | Val Loss 0.6247 | Val Micro f1 0.7856 | Val Macro f1 0.7844
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.7133 | Train Micro f1 0.7650 | Train Macro f1 0.7652 | Val Loss 0.6158 | Val Micro f1 0.7845 | Val Macro f1 0.7828
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.7685 | Train Micro f1 0.7550 | Train Macro f1 0.7547 | Val Loss 0.6105 | Val Micro f1 0.7856 | Val Macro f1 0.7837
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.7173 | Train Micro f1 0.7300 | Train Macro f1 0.7312 | Val Loss 0.6044 | Val Micro f1 0.7899 | Val Macro f1 0.7878
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.7411 | Train Micro f1 0.7500 | Train Macro f1 0.7500 | Val Loss 0.5975 | Val Micro f1 0.7976 | Val Macro f1 0.7951
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.7614 | Train Micro f1 0.7100 | Train Macro f1 0.7113 | Val Loss 0.5915 | Val Micro f1 0.8009 | Val Macro f1 0.7981
+Epoch 15 | Train Loss 0.7173 | Train Micro f1 0.7400 | Train Macro f1 0.7403 | Val Loss 0.5856 | Val Micro f1 0.8063 | Val Macro f1 0.8030
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.6427 | Train Micro f1 0.7400 | Train Macro f1 0.7398 | Val Loss 0.5815 | Val Micro f1 0.8053 | Val Macro f1 0.8014
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.7124 | Train Micro f1 0.7450 | Train Macro f1 0.7470 | Val Loss 0.5798 | Val Micro f1 0.8053 | Val Macro f1 0.8016
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.6163 | Train Micro f1 0.7600 | Train Macro f1 0.7628 | Val Loss 0.5790 | Val Micro f1 0.8042 | Val Macro f1 0.8005
+Epoch 19 | Train Loss 0.6495 | Train Micro f1 0.7450 | Train Macro f1 0.7464 | Val Loss 0.5803 | Val Micro f1 0.8074 | Val Macro f1 0.8041
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.6014 | Train Micro f1 0.8100 | Train Macro f1 0.8098 | Val Loss 0.5838 | Val Micro f1 0.8063 | Val Macro f1 0.8031
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.5778 | Train Micro f1 0.8350 | Train Macro f1 0.8350 | Val Loss 0.5889 | Val Micro f1 0.8020 | Val Macro f1 0.7990
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.6867 | Train Micro f1 0.7450 | Train Macro f1 0.7455 | Val Loss 0.5949 | Val Micro f1 0.8020 | Val Macro f1 0.7990
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.5978 | Train Micro f1 0.8050 | Train Macro f1 0.8050 | Val Loss 0.6013 | Val Micro f1 0.7976 | Val Macro f1 0.7949
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.6316 | Train Micro f1 0.7550 | Train Macro f1 0.7552 | Val Loss 0.6056 | Val Micro f1 0.7965 | Val Macro f1 0.7938
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.5923 | Train Micro f1 0.8000 | Train Macro f1 0.8001 | Val Loss 0.6100 | Val Micro f1 0.7965 | Val Macro f1 0.7939
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.7021 | Train Micro f1 0.7500 | Train Macro f1 0.7526 | Val Loss 0.6141 | Val Micro f1 0.7943 | Val Macro f1 0.7918
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.5780 | Train Micro f1 0.8150 | Train Macro f1 0.8156 | Val Loss 0.6189 | Val Micro f1 0.7921 | Val Macro f1 0.7896
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.5446 | Train Micro f1 0.8300 | Train Macro f1 0.8315 | Val Loss 0.6232 | Val Micro f1 0.7921 | Val Macro f1 0.7896
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.5487 | Train Micro f1 0.8300 | Train Macro f1 0.8301 | Val Loss 0.6275 | Val Micro f1 0.7888 | Val Macro f1 0.7863
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.5507 | Train Micro f1 0.8250 | Train Macro f1 0.8261 | Val Loss 0.6308 | Val Micro f1 0.7877 | Val Macro f1 0.7853
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.5888 | Train Micro f1 0.7950 | Train Macro f1 0.7953 | Val Loss 0.6333 | Val Micro f1 0.7867 | Val Macro f1 0.7842
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.5492 | Train Micro f1 0.8100 | Train Macro f1 0.8111 | Val Loss 0.6345 | Val Micro f1 0.7845 | Val Macro f1 0.7820
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.5725 | Train Micro f1 0.8300 | Train Macro f1 0.8303 | Val Loss 0.6361 | Val Micro f1 0.7823 | Val Macro f1 0.7798
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.5209 | Train Micro f1 0.8600 | Train Macro f1 0.8613 | Val Loss 0.6388 | Val Micro f1 0.7812 | Val Macro f1 0.7788
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.4852 | Train Micro f1 0.8750 | Train Macro f1 0.8745 | Val Loss 0.6398 | Val Micro f1 0.7823 | Val Macro f1 0.7797
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.5746 | Train Micro f1 0.7600 | Train Macro f1 0.7585 | Val Loss 0.6413 | Val Micro f1 0.7801 | Val Macro f1 0.7774
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.5116 | Train Micro f1 0.8350 | Train Macro f1 0.8354 | Val Loss 0.6416 | Val Micro f1 0.7790 | Val Macro f1 0.7762
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.4896 | Train Micro f1 0.8400 | Train Macro f1 0.8398 | Val Loss 0.6415 | Val Micro f1 0.7790 | Val Macro f1 0.7763
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.5277 | Train Micro f1 0.8350 | Train Macro f1 0.8343 | Val Loss 0.6405 | Val Micro f1 0.7812 | Val Macro f1 0.7782
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.4995 | Train Micro f1 0.8200 | Train Macro f1 0.8199 | Val Loss 0.6398 | Val Micro f1 0.7801 | Val Macro f1 0.7771
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.5230 | Train Micro f1 0.8100 | Train Macro f1 0.8101 | Val Loss 0.6406 | Val Micro f1 0.7779 | Val Macro f1 0.7749
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.5246 | Train Micro f1 0.8050 | Train Macro f1 0.8061 | Val Loss 0.6404 | Val Micro f1 0.7768 | Val Macro f1 0.7737
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.5105 | Train Micro f1 0.8350 | Train Macro f1 0.8355 | Val Loss 0.6393 | Val Micro f1 0.7757 | Val Macro f1 0.7725
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.5026 | Train Micro f1 0.8400 | Train Macro f1 0.8423 | Val Loss 0.6412 | Val Micro f1 0.7757 | Val Macro f1 0.7721
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.4705 | Train Micro f1 0.8500 | Train Macro f1 0.8502 | Val Loss 0.6426 | Val Micro f1 0.7779 | Val Macro f1 0.7744
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.5259 | Train Micro f1 0.8100 | Train Macro f1 0.8107 | Val Loss 0.6455 | Val Micro f1 0.7757 | Val Macro f1 0.7725
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.4595 | Train Micro f1 0.8500 | Train Macro f1 0.8501 | Val Loss 0.6496 | Val Micro f1 0.7746 | Val Macro f1 0.7715
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.5502 | Train Micro f1 0.8200 | Train Macro f1 0.8207 | Val Loss 0.6543 | Val Micro f1 0.7735 | Val Macro f1 0.7705
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.4699 | Train Micro f1 0.8350 | Train Macro f1 0.8346 | Val Loss 0.6589 | Val Micro f1 0.7724 | Val Macro f1 0.7699
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.4803 | Train Micro f1 0.8350 | Train Macro f1 0.8356 | Val Loss 0.6638 | Val Micro f1 0.7724 | Val Macro f1 0.7699
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 1 | Train Loss 0.8290 | Train Micro f1 0.7500 | Train Macro f1 0.7510 | Val Loss 0.6028 | Val Micro f1 0.7976 | Val Macro f1 0.7953
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 2 | Train Loss 0.7590 | Train Micro f1 0.7200 | Train Macro f1 0.7175 | Val Loss 0.5985 | Val Micro f1 0.7954 | Val Macro f1 0.7931
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 3 | Train Loss 0.7925 | Train Micro f1 0.6950 | Train Macro f1 0.6965 | Val Loss 0.5936 | Val Micro f1 0.7987 | Val Macro f1 0.7963
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 4 | Train Loss 0.7692 | Train Micro f1 0.6950 | Train Macro f1 0.6951 | Val Loss 0.5888 | Val Micro f1 0.8020 | Val Macro f1 0.7995
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.7218 | Train Micro f1 0.7400 | Train Macro f1 0.7405 | Val Loss 0.5852 | Val Micro f1 0.8053 | Val Macro f1 0.8027
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.7418 | Train Micro f1 0.7300 | Train Macro f1 0.7315 | Val Loss 0.5826 | Val Micro f1 0.8031 | Val Macro f1 0.8004
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.6597 | Train Micro f1 0.7500 | Train Macro f1 0.7456 | Val Loss 0.5839 | Val Micro f1 0.8042 | Val Macro f1 0.8014
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.6730 | Train Micro f1 0.7300 | Train Macro f1 0.7289 | Val Loss 0.5863 | Val Micro f1 0.7998 | Val Macro f1 0.7969
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.7829 | Train Micro f1 0.6900 | Train Macro f1 0.6867 | Val Loss 0.5905 | Val Micro f1 0.7965 | Val Macro f1 0.7933
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.6304 | Train Micro f1 0.7550 | Train Macro f1 0.7537 | Val Loss 0.5944 | Val Micro f1 0.7921 | Val Macro f1 0.7894
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.6988 | Train Micro f1 0.7450 | Train Macro f1 0.7463 | Val Loss 0.5999 | Val Micro f1 0.7943 | Val Macro f1 0.7918
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.7003 | Train Micro f1 0.7250 | Train Macro f1 0.7229 | Val Loss 0.6028 | Val Micro f1 0.7943 | Val Macro f1 0.7918
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.6578 | Train Micro f1 0.7500 | Train Macro f1 0.7501 | Val Loss 0.6056 | Val Micro f1 0.7943 | Val Macro f1 0.7921
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.6465 | Train Micro f1 0.7850 | Train Macro f1 0.7866 | Val Loss 0.6066 | Val Micro f1 0.7921 | Val Macro f1 0.7903
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.6681 | Train Micro f1 0.7150 | Train Macro f1 0.7149 | Val Loss 0.6058 | Val Micro f1 0.7899 | Val Macro f1 0.7877
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.6593 | Train Micro f1 0.7600 | Train Macro f1 0.7600 | Val Loss 0.6018 | Val Micro f1 0.7932 | Val Macro f1 0.7910
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.6259 | Train Micro f1 0.7750 | Train Macro f1 0.7755 | Val Loss 0.5963 | Val Micro f1 0.7976 | Val Macro f1 0.7953
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.6843 | Train Micro f1 0.7450 | Train Macro f1 0.7454 | Val Loss 0.5907 | Val Micro f1 0.7987 | Val Macro f1 0.7961
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.5493 | Train Micro f1 0.7800 | Train Macro f1 0.7803 | Val Loss 0.5883 | Val Micro f1 0.7987 | Val Macro f1 0.7961
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.6120 | Train Micro f1 0.7600 | Train Macro f1 0.7605 | Val Loss 0.5867 | Val Micro f1 0.8009 | Val Macro f1 0.7980
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.5807 | Train Micro f1 0.7750 | Train Macro f1 0.7763 | Val Loss 0.5857 | Val Micro f1 0.8009 | Val Macro f1 0.7981
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.6005 | Train Micro f1 0.7800 | Train Macro f1 0.7793 | Val Loss 0.5858 | Val Micro f1 0.7998 | Val Macro f1 0.7971
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.5578 | Train Micro f1 0.7700 | Train Macro f1 0.7690 | Val Loss 0.5868 | Val Micro f1 0.7998 | Val Macro f1 0.7970
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.5477 | Train Micro f1 0.7900 | Train Macro f1 0.7894 | Val Loss 0.5881 | Val Micro f1 0.7987 | Val Macro f1 0.7960
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.5639 | Train Micro f1 0.7900 | Train Macro f1 0.7899 | Val Loss 0.5892 | Val Micro f1 0.7976 | Val Macro f1 0.7948
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.5853 | Train Micro f1 0.7550 | Train Macro f1 0.7551 | Val Loss 0.5915 | Val Micro f1 0.7954 | Val Macro f1 0.7926
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.5264 | Train Micro f1 0.7900 | Train Macro f1 0.7900 | Val Loss 0.5936 | Val Micro f1 0.7954 | Val Macro f1 0.7928
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.4974 | Train Micro f1 0.8200 | Train Macro f1 0.8200 | Val Loss 0.5961 | Val Micro f1 0.7954 | Val Macro f1 0.7927
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.5889 | Train Micro f1 0.7400 | Train Macro f1 0.7414 | Val Loss 0.5983 | Val Micro f1 0.7943 | Val Macro f1 0.7919
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.4911 | Train Micro f1 0.8300 | Train Macro f1 0.8284 | Val Loss 0.5994 | Val Micro f1 0.7910 | Val Macro f1 0.7887
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.5427 | Train Micro f1 0.7850 | Train Macro f1 0.7845 | Val Loss 0.6017 | Val Micro f1 0.7932 | Val Macro f1 0.7909
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.4810 | Train Micro f1 0.8000 | Train Macro f1 0.8002 | Val Loss 0.6029 | Val Micro f1 0.7932 | Val Macro f1 0.7909
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.5105 | Train Micro f1 0.8250 | Train Macro f1 0.8246 | Val Loss 0.6045 | Val Micro f1 0.7954 | Val Macro f1 0.7933
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.4798 | Train Micro f1 0.8200 | Train Macro f1 0.8187 | Val Loss 0.6047 | Val Micro f1 0.7932 | Val Macro f1 0.7909
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.4785 | Train Micro f1 0.8450 | Train Macro f1 0.8461 | Val Loss 0.6052 | Val Micro f1 0.7899 | Val Macro f1 0.7878
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.4879 | Train Micro f1 0.8450 | Train Macro f1 0.8455 | Val Loss 0.6056 | Val Micro f1 0.7932 | Val Macro f1 0.7911
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.5129 | Train Micro f1 0.8000 | Train Macro f1 0.8013 | Val Loss 0.6066 | Val Micro f1 0.7943 | Val Macro f1 0.7924
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.5035 | Train Micro f1 0.8100 | Train Macro f1 0.8084 | Val Loss 0.6084 | Val Micro f1 0.7932 | Val Macro f1 0.7913
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.4654 | Train Micro f1 0.8400 | Train Macro f1 0.8408 | Val Loss 0.6109 | Val Micro f1 0.7899 | Val Macro f1 0.7881
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.5398 | Train Micro f1 0.7900 | Train Macro f1 0.7885 | Val Loss 0.6142 | Val Micro f1 0.7888 | Val Macro f1 0.7872
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.4522 | Train Micro f1 0.8350 | Train Macro f1 0.8344 | Val Loss 0.6178 | Val Micro f1 0.7834 | Val Macro f1 0.7818
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.5309 | Train Micro f1 0.8050 | Train Macro f1 0.8051 | Val Loss 0.6205 | Val Micro f1 0.7790 | Val Macro f1 0.7772
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.4851 | Train Micro f1 0.8100 | Train Macro f1 0.8103 | Val Loss 0.6227 | Val Micro f1 0.7735 | Val Macro f1 0.7719
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.5195 | Train Micro f1 0.8050 | Train Macro f1 0.8049 | Val Loss 0.6249 | Val Micro f1 0.7735 | Val Macro f1 0.7721
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.4509 | Train Micro f1 0.8550 | Train Macro f1 0.8557 | Val Loss 0.6261 | Val Micro f1 0.7713 | Val Macro f1 0.7698
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.4591 | Train Micro f1 0.8450 | Train Macro f1 0.8447 | Val Loss 0.6273 | Val Micro f1 0.7691 | Val Macro f1 0.7673
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.5107 | Train Micro f1 0.8000 | Train Macro f1 0.8002 | Val Loss 0.6256 | Val Micro f1 0.7670 | Val Macro f1 0.7648
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.4690 | Train Micro f1 0.8200 | Train Macro f1 0.8200 | Val Loss 0.6267 | Val Micro f1 0.7670 | Val Macro f1 0.7647
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.5276 | Train Micro f1 0.7700 | Train Macro f1 0.7691 | Val Loss 0.6280 | Val Micro f1 0.7670 | Val Macro f1 0.7647
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.5306 | Train Micro f1 0.8050 | Train Macro f1 0.8054 | Val Loss 0.6272 | Val Micro f1 0.7691 | Val Macro f1 0.7669
+Epoch 1 | Train Loss 0.8367 | Train Micro f1 0.7050 | Train Macro f1 0.7083 | Val Loss 0.5636 | Val Micro f1 0.8020 | Val Macro f1 0.8000
+Epoch 2 | Train Loss 0.7443 | Train Micro f1 0.7100 | Train Macro f1 0.7079 | Val Loss 0.5626 | Val Micro f1 0.8053 | Val Macro f1 0.8031
+Epoch 3 | Train Loss 0.8827 | Train Micro f1 0.7100 | Train Macro f1 0.7079 | Val Loss 0.5614 | Val Micro f1 0.8063 | Val Macro f1 0.8040
+Epoch 4 | Train Loss 0.7797 | Train Micro f1 0.7400 | Train Macro f1 0.7394 | Val Loss 0.5607 | Val Micro f1 0.8009 | Val Macro f1 0.7982
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.8305 | Train Micro f1 0.6850 | Train Macro f1 0.6843 | Val Loss 0.5629 | Val Micro f1 0.7998 | Val Macro f1 0.7970
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.7348 | Train Micro f1 0.7550 | Train Macro f1 0.7542 | Val Loss 0.5672 | Val Micro f1 0.7987 | Val Macro f1 0.7959
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.6986 | Train Micro f1 0.7350 | Train Macro f1 0.7343 | Val Loss 0.5737 | Val Micro f1 0.8042 | Val Macro f1 0.8014
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.6881 | Train Micro f1 0.7300 | Train Macro f1 0.7250 | Val Loss 0.5766 | Val Micro f1 0.8042 | Val Macro f1 0.8017
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.6362 | Train Micro f1 0.7650 | Train Macro f1 0.7659 | Val Loss 0.5757 | Val Micro f1 0.8053 | Val Macro f1 0.8031
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.7115 | Train Micro f1 0.7150 | Train Macro f1 0.7126 | Val Loss 0.5756 | Val Micro f1 0.8053 | Val Macro f1 0.8033
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.6996 | Train Micro f1 0.7400 | Train Macro f1 0.7386 | Val Loss 0.5730 | Val Micro f1 0.8053 | Val Macro f1 0.8034
+Epoch 12 | Train Loss 0.7887 | Train Micro f1 0.6750 | Train Macro f1 0.6759 | Val Loss 0.5733 | Val Micro f1 0.8085 | Val Macro f1 0.8068
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.6891 | Train Micro f1 0.7650 | Train Macro f1 0.7657 | Val Loss 0.5712 | Val Micro f1 0.8042 | Val Macro f1 0.8025
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.6741 | Train Micro f1 0.7600 | Train Macro f1 0.7586 | Val Loss 0.5702 | Val Micro f1 0.8031 | Val Macro f1 0.8013
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.6091 | Train Micro f1 0.8150 | Train Macro f1 0.8170 | Val Loss 0.5685 | Val Micro f1 0.7998 | Val Macro f1 0.7978
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.6884 | Train Micro f1 0.7550 | Train Macro f1 0.7552 | Val Loss 0.5673 | Val Micro f1 0.7998 | Val Macro f1 0.7976
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.6508 | Train Micro f1 0.7800 | Train Macro f1 0.7792 | Val Loss 0.5655 | Val Micro f1 0.7976 | Val Macro f1 0.7951
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.6161 | Train Micro f1 0.7800 | Train Macro f1 0.7799 | Val Loss 0.5651 | Val Micro f1 0.7998 | Val Macro f1 0.7972
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.6746 | Train Micro f1 0.7800 | Train Macro f1 0.7818 | Val Loss 0.5636 | Val Micro f1 0.7987 | Val Macro f1 0.7959
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.5584 | Train Micro f1 0.8150 | Train Macro f1 0.8153 | Val Loss 0.5622 | Val Micro f1 0.8031 | Val Macro f1 0.7995
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.6306 | Train Micro f1 0.7500 | Train Macro f1 0.7492 | Val Loss 0.5615 | Val Micro f1 0.8053 | Val Macro f1 0.8013
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.5872 | Train Micro f1 0.8000 | Train Macro f1 0.8001 | Val Loss 0.5627 | Val Micro f1 0.8009 | Val Macro f1 0.7967
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.5496 | Train Micro f1 0.8150 | Train Macro f1 0.8145 | Val Loss 0.5637 | Val Micro f1 0.7998 | Val Macro f1 0.7954
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.5410 | Train Micro f1 0.8000 | Train Macro f1 0.8004 | Val Loss 0.5648 | Val Micro f1 0.7921 | Val Macro f1 0.7870
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.5738 | Train Micro f1 0.8000 | Train Macro f1 0.8001 | Val Loss 0.5637 | Val Micro f1 0.7965 | Val Macro f1 0.7917
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.6585 | Train Micro f1 0.8000 | Train Macro f1 0.8006 | Val Loss 0.5641 | Val Micro f1 0.7965 | Val Macro f1 0.7920
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.5393 | Train Micro f1 0.8250 | Train Macro f1 0.8258 | Val Loss 0.5659 | Val Micro f1 0.7965 | Val Macro f1 0.7921
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.5526 | Train Micro f1 0.7900 | Train Macro f1 0.7907 | Val Loss 0.5687 | Val Micro f1 0.7943 | Val Macro f1 0.7903
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.6086 | Train Micro f1 0.7700 | Train Macro f1 0.7706 | Val Loss 0.5704 | Val Micro f1 0.7910 | Val Macro f1 0.7871
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.6349 | Train Micro f1 0.7650 | Train Macro f1 0.7640 | Val Loss 0.5723 | Val Micro f1 0.7899 | Val Macro f1 0.7860
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.5269 | Train Micro f1 0.7850 | Train Macro f1 0.7856 | Val Loss 0.5735 | Val Micro f1 0.7921 | Val Macro f1 0.7882
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.5593 | Train Micro f1 0.7950 | Train Macro f1 0.7939 | Val Loss 0.5749 | Val Micro f1 0.7921 | Val Macro f1 0.7878
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.5104 | Train Micro f1 0.8500 | Train Macro f1 0.8493 | Val Loss 0.5772 | Val Micro f1 0.7932 | Val Macro f1 0.7889
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.5568 | Train Micro f1 0.7950 | Train Macro f1 0.7971 | Val Loss 0.5779 | Val Micro f1 0.7921 | Val Macro f1 0.7877
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.5301 | Train Micro f1 0.7950 | Train Macro f1 0.7944 | Val Loss 0.5797 | Val Micro f1 0.7976 | Val Macro f1 0.7930
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.4964 | Train Micro f1 0.8300 | Train Macro f1 0.8306 | Val Loss 0.5813 | Val Micro f1 0.7998 | Val Macro f1 0.7952
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.5236 | Train Micro f1 0.8200 | Train Macro f1 0.8220 | Val Loss 0.5827 | Val Micro f1 0.7987 | Val Macro f1 0.7941
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.5091 | Train Micro f1 0.8150 | Train Macro f1 0.8160 | Val Loss 0.5846 | Val Micro f1 0.8009 | Val Macro f1 0.7961
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.5006 | Train Micro f1 0.8250 | Train Macro f1 0.8278 | Val Loss 0.5855 | Val Micro f1 0.8031 | Val Macro f1 0.7983
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.5279 | Train Micro f1 0.8250 | Train Macro f1 0.8261 | Val Loss 0.5855 | Val Micro f1 0.7987 | Val Macro f1 0.7940
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.5501 | Train Micro f1 0.8100 | Train Macro f1 0.8103 | Val Loss 0.5869 | Val Micro f1 0.7998 | Val Macro f1 0.7952
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.4575 | Train Micro f1 0.8400 | Train Macro f1 0.8403 | Val Loss 0.5884 | Val Micro f1 0.8009 | Val Macro f1 0.7966
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.4743 | Train Micro f1 0.8100 | Train Macro f1 0.8113 | Val Loss 0.5889 | Val Micro f1 0.7965 | Val Macro f1 0.7920
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.4263 | Train Micro f1 0.8400 | Train Macro f1 0.8403 | Val Loss 0.5886 | Val Micro f1 0.7976 | Val Macro f1 0.7933
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.5084 | Train Micro f1 0.8200 | Train Macro f1 0.8230 | Val Loss 0.5890 | Val Micro f1 0.7976 | Val Macro f1 0.7933
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.4580 | Train Micro f1 0.8400 | Train Macro f1 0.8407 | Val Loss 0.5885 | Val Micro f1 0.7943 | Val Macro f1 0.7898
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.5216 | Train Micro f1 0.8050 | Train Macro f1 0.8062 | Val Loss 0.5890 | Val Micro f1 0.7965 | Val Macro f1 0.7924
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.4383 | Train Micro f1 0.8550 | Train Macro f1 0.8567 | Val Loss 0.5894 | Val Micro f1 0.7943 | Val Macro f1 0.7902
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.5278 | Train Micro f1 0.7950 | Train Macro f1 0.7957 | Val Loss 0.5910 | Val Micro f1 0.7943 | Val Macro f1 0.7903
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.4577 | Train Micro f1 0.8450 | Train Macro f1 0.8452 | Val Loss 0.5931 | Val Micro f1 0.7910 | Val Macro f1 0.7874
+Epoch 1 | Train Loss 0.6956 | Train Micro f1 0.7100 | Train Macro f1 0.7054 | Val Loss 0.5429 | Val Micro f1 0.8195 | Val Macro f1 0.8169
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 2 | Train Loss 0.7660 | Train Micro f1 0.7150 | Train Macro f1 0.7086 | Val Loss 0.5438 | Val Micro f1 0.8173 | Val Macro f1 0.8151
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 3 | Train Loss 0.7457 | Train Micro f1 0.7150 | Train Macro f1 0.7112 | Val Loss 0.5448 | Val Micro f1 0.8162 | Val Macro f1 0.8141
+Epoch 4 | Train Loss 0.7853 | Train Micro f1 0.6800 | Train Macro f1 0.6790 | Val Loss 0.5461 | Val Micro f1 0.8206 | Val Macro f1 0.8186
+Epoch 5 | Train Loss 0.7508 | Train Micro f1 0.7350 | Train Macro f1 0.7334 | Val Loss 0.5474 | Val Micro f1 0.8206 | Val Macro f1 0.8188
+Epoch 6 | Train Loss 0.7303 | Train Micro f1 0.7100 | Train Macro f1 0.7110 | Val Loss 0.5490 | Val Micro f1 0.8206 | Val Macro f1 0.8187
+Epoch 7 | Train Loss 0.7350 | Train Micro f1 0.7350 | Train Macro f1 0.7367 | Val Loss 0.5507 | Val Micro f1 0.8206 | Val Macro f1 0.8184
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.6646 | Train Micro f1 0.7200 | Train Macro f1 0.7209 | Val Loss 0.5514 | Val Micro f1 0.8195 | Val Macro f1 0.8167
+Epoch 9 | Train Loss 0.6760 | Train Micro f1 0.7100 | Train Macro f1 0.7114 | Val Loss 0.5551 | Val Micro f1 0.8217 | Val Macro f1 0.8188
+Epoch 10 | Train Loss 0.6993 | Train Micro f1 0.7700 | Train Macro f1 0.7701 | Val Loss 0.5591 | Val Micro f1 0.8217 | Val Macro f1 0.8188
+Epoch 11 | Train Loss 0.5995 | Train Micro f1 0.7650 | Train Macro f1 0.7630 | Val Loss 0.5575 | Val Micro f1 0.8217 | Val Macro f1 0.8188
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.5760 | Train Micro f1 0.7550 | Train Macro f1 0.7557 | Val Loss 0.5539 | Val Micro f1 0.8195 | Val Macro f1 0.8170
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.6493 | Train Micro f1 0.7500 | Train Macro f1 0.7499 | Val Loss 0.5517 | Val Micro f1 0.8184 | Val Macro f1 0.8161
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.6699 | Train Micro f1 0.7550 | Train Macro f1 0.7553 | Val Loss 0.5525 | Val Micro f1 0.8151 | Val Macro f1 0.8130
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.5965 | Train Micro f1 0.7650 | Train Macro f1 0.7657 | Val Loss 0.5534 | Val Micro f1 0.8151 | Val Macro f1 0.8131
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.5738 | Train Micro f1 0.7750 | Train Macro f1 0.7755 | Val Loss 0.5561 | Val Micro f1 0.8107 | Val Macro f1 0.8085
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.5446 | Train Micro f1 0.7800 | Train Macro f1 0.7812 | Val Loss 0.5588 | Val Micro f1 0.8107 | Val Macro f1 0.8086
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.6162 | Train Micro f1 0.7800 | Train Macro f1 0.7802 | Val Loss 0.5612 | Val Micro f1 0.8107 | Val Macro f1 0.8086
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.6046 | Train Micro f1 0.7600 | Train Macro f1 0.7593 | Val Loss 0.5652 | Val Micro f1 0.8074 | Val Macro f1 0.8049
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.5732 | Train Micro f1 0.7750 | Train Macro f1 0.7754 | Val Loss 0.5686 | Val Micro f1 0.8074 | Val Macro f1 0.8047
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.5017 | Train Micro f1 0.8200 | Train Macro f1 0.8198 | Val Loss 0.5711 | Val Micro f1 0.8053 | Val Macro f1 0.8028
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.5444 | Train Micro f1 0.8100 | Train Macro f1 0.8087 | Val Loss 0.5733 | Val Micro f1 0.8009 | Val Macro f1 0.7984
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.5210 | Train Micro f1 0.8100 | Train Macro f1 0.8098 | Val Loss 0.5764 | Val Micro f1 0.7998 | Val Macro f1 0.7972
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.5320 | Train Micro f1 0.7700 | Train Macro f1 0.7711 | Val Loss 0.5787 | Val Micro f1 0.7998 | Val Macro f1 0.7973
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.5646 | Train Micro f1 0.8200 | Train Macro f1 0.8208 | Val Loss 0.5809 | Val Micro f1 0.7965 | Val Macro f1 0.7939
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.5133 | Train Micro f1 0.8050 | Train Macro f1 0.8073 | Val Loss 0.5825 | Val Micro f1 0.7954 | Val Macro f1 0.7928
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.4565 | Train Micro f1 0.8300 | Train Macro f1 0.8315 | Val Loss 0.5827 | Val Micro f1 0.7943 | Val Macro f1 0.7915
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.5094 | Train Micro f1 0.8200 | Train Macro f1 0.8217 | Val Loss 0.5837 | Val Micro f1 0.7932 | Val Macro f1 0.7905
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.4340 | Train Micro f1 0.8500 | Train Macro f1 0.8502 | Val Loss 0.5852 | Val Micro f1 0.7932 | Val Macro f1 0.7905
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.4731 | Train Micro f1 0.8150 | Train Macro f1 0.8154 | Val Loss 0.5876 | Val Micro f1 0.7921 | Val Macro f1 0.7893
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.5334 | Train Micro f1 0.8050 | Train Macro f1 0.8047 | Val Loss 0.5889 | Val Micro f1 0.7921 | Val Macro f1 0.7893
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.4843 | Train Micro f1 0.8150 | Train Macro f1 0.8145 | Val Loss 0.5896 | Val Micro f1 0.7932 | Val Macro f1 0.7904
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.4834 | Train Micro f1 0.8200 | Train Macro f1 0.8215 | Val Loss 0.5931 | Val Micro f1 0.7921 | Val Macro f1 0.7894
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.5043 | Train Micro f1 0.8000 | Train Macro f1 0.7997 | Val Loss 0.5947 | Val Micro f1 0.7867 | Val Macro f1 0.7838
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.4562 | Train Micro f1 0.8300 | Train Macro f1 0.8316 | Val Loss 0.5953 | Val Micro f1 0.7845 | Val Macro f1 0.7816
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.4721 | Train Micro f1 0.8150 | Train Macro f1 0.8139 | Val Loss 0.5953 | Val Micro f1 0.7856 | Val Macro f1 0.7829
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.5458 | Train Micro f1 0.7450 | Train Macro f1 0.7433 | Val Loss 0.5961 | Val Micro f1 0.7834 | Val Macro f1 0.7808
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.5156 | Train Micro f1 0.7900 | Train Macro f1 0.7907 | Val Loss 0.5987 | Val Micro f1 0.7801 | Val Macro f1 0.7773
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.4997 | Train Micro f1 0.8000 | Train Macro f1 0.8004 | Val Loss 0.6006 | Val Micro f1 0.7790 | Val Macro f1 0.7762
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.5075 | Train Micro f1 0.8150 | Train Macro f1 0.8159 | Val Loss 0.6016 | Val Micro f1 0.7790 | Val Macro f1 0.7762
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.4521 | Train Micro f1 0.8250 | Train Macro f1 0.8266 | Val Loss 0.6020 | Val Micro f1 0.7779 | Val Macro f1 0.7750
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.4252 | Train Micro f1 0.8350 | Train Macro f1 0.8367 | Val Loss 0.6034 | Val Micro f1 0.7790 | Val Macro f1 0.7760
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.4343 | Train Micro f1 0.8350 | Train Macro f1 0.8360 | Val Loss 0.6060 | Val Micro f1 0.7779 | Val Macro f1 0.7750
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.4987 | Train Micro f1 0.8450 | Train Macro f1 0.8446 | Val Loss 0.6074 | Val Micro f1 0.7779 | Val Macro f1 0.7752
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.4833 | Train Micro f1 0.8050 | Train Macro f1 0.8030 | Val Loss 0.6104 | Val Micro f1 0.7790 | Val Macro f1 0.7764
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.5249 | Train Micro f1 0.8200 | Train Macro f1 0.8201 | Val Loss 0.6117 | Val Micro f1 0.7768 | Val Macro f1 0.7742
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.4591 | Train Micro f1 0.8600 | Train Macro f1 0.8609 | Val Loss 0.6129 | Val Micro f1 0.7801 | Val Macro f1 0.7773
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.4580 | Train Micro f1 0.7900 | Train Macro f1 0.7927 | Val Loss 0.6129 | Val Micro f1 0.7768 | Val Macro f1 0.7742
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.4976 | Train Micro f1 0.7950 | Train Macro f1 0.7968 | Val Loss 0.6125 | Val Micro f1 0.7768 | Val Macro f1 0.7737
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.4517 | Train Micro f1 0.8400 | Train Macro f1 0.8404 | Val Loss 0.6133 | Val Micro f1 0.7823 | Val Macro f1 0.7784
+Epoch 1 | Train Loss 0.7799 | Train Micro f1 0.7400 | Train Macro f1 0.7391 | Val Loss 0.5382 | Val Micro f1 0.8151 | Val Macro f1 0.8124
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 2 | Train Loss 0.8104 | Train Micro f1 0.7100 | Train Macro f1 0.7066 | Val Loss 0.5393 | Val Micro f1 0.8151 | Val Macro f1 0.8125
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 3 | Train Loss 0.7914 | Train Micro f1 0.7450 | Train Macro f1 0.7456 | Val Loss 0.5402 | Val Micro f1 0.8118 | Val Macro f1 0.8094
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 4 | Train Loss 0.9211 | Train Micro f1 0.6600 | Train Macro f1 0.6565 | Val Loss 0.5415 | Val Micro f1 0.8118 | Val Macro f1 0.8095
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.7631 | Train Micro f1 0.7700 | Train Macro f1 0.7693 | Val Loss 0.5459 | Val Micro f1 0.8085 | Val Macro f1 0.8061
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.7879 | Train Micro f1 0.7100 | Train Macro f1 0.7074 | Val Loss 0.5576 | Val Micro f1 0.7976 | Val Macro f1 0.7957
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.7024 | Train Micro f1 0.7300 | Train Macro f1 0.7288 | Val Loss 0.5750 | Val Micro f1 0.7976 | Val Macro f1 0.7958
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.7967 | Train Micro f1 0.6500 | Train Macro f1 0.6483 | Val Loss 0.6041 | Val Micro f1 0.7899 | Val Macro f1 0.7884
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.7834 | Train Micro f1 0.7150 | Train Macro f1 0.7152 | Val Loss 0.6049 | Val Micro f1 0.7943 | Val Macro f1 0.7923
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.7917 | Train Micro f1 0.6900 | Train Macro f1 0.6896 | Val Loss 0.6040 | Val Micro f1 0.7954 | Val Macro f1 0.7936
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.7705 | Train Micro f1 0.7050 | Train Macro f1 0.7067 | Val Loss 0.5824 | Val Micro f1 0.7976 | Val Macro f1 0.7960
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.7501 | Train Micro f1 0.6900 | Train Macro f1 0.6878 | Val Loss 0.5737 | Val Micro f1 0.7976 | Val Macro f1 0.7960
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.7564 | Train Micro f1 0.7250 | Train Macro f1 0.7237 | Val Loss 0.5693 | Val Micro f1 0.7987 | Val Macro f1 0.7970
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.7301 | Train Micro f1 0.7250 | Train Macro f1 0.7245 | Val Loss 0.5676 | Val Micro f1 0.8020 | Val Macro f1 0.8003
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.6969 | Train Micro f1 0.7650 | Train Macro f1 0.7644 | Val Loss 0.5638 | Val Micro f1 0.8031 | Val Macro f1 0.8015
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.6989 | Train Micro f1 0.7200 | Train Macro f1 0.7185 | Val Loss 0.5590 | Val Micro f1 0.8063 | Val Macro f1 0.8046
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.6584 | Train Micro f1 0.7850 | Train Macro f1 0.7851 | Val Loss 0.5566 | Val Micro f1 0.8063 | Val Macro f1 0.8048
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.7077 | Train Micro f1 0.7350 | Train Macro f1 0.7350 | Val Loss 0.5552 | Val Micro f1 0.8063 | Val Macro f1 0.8049
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.6394 | Train Micro f1 0.7700 | Train Macro f1 0.7689 | Val Loss 0.5540 | Val Micro f1 0.8074 | Val Macro f1 0.8060
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.6256 | Train Micro f1 0.8050 | Train Macro f1 0.8035 | Val Loss 0.5544 | Val Micro f1 0.8096 | Val Macro f1 0.8082
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.5959 | Train Micro f1 0.8150 | Train Macro f1 0.8132 | Val Loss 0.5549 | Val Micro f1 0.8107 | Val Macro f1 0.8093
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.6713 | Train Micro f1 0.7500 | Train Macro f1 0.7485 | Val Loss 0.5569 | Val Micro f1 0.8118 | Val Macro f1 0.8105
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.7001 | Train Micro f1 0.7200 | Train Macro f1 0.7175 | Val Loss 0.5579 | Val Micro f1 0.8107 | Val Macro f1 0.8093
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.6001 | Train Micro f1 0.7700 | Train Macro f1 0.7653 | Val Loss 0.5590 | Val Micro f1 0.8118 | Val Macro f1 0.8105
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.5431 | Train Micro f1 0.8200 | Train Macro f1 0.8188 | Val Loss 0.5631 | Val Micro f1 0.8107 | Val Macro f1 0.8095
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.6733 | Train Micro f1 0.7400 | Train Macro f1 0.7410 | Val Loss 0.5649 | Val Micro f1 0.8085 | Val Macro f1 0.8072
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.5068 | Train Micro f1 0.8250 | Train Macro f1 0.8253 | Val Loss 0.5658 | Val Micro f1 0.8074 | Val Macro f1 0.8062
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.5853 | Train Micro f1 0.7600 | Train Macro f1 0.7619 | Val Loss 0.5674 | Val Micro f1 0.8063 | Val Macro f1 0.8052
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.5774 | Train Micro f1 0.7900 | Train Macro f1 0.7894 | Val Loss 0.5695 | Val Micro f1 0.8053 | Val Macro f1 0.8039
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.6284 | Train Micro f1 0.7900 | Train Macro f1 0.7879 | Val Loss 0.5719 | Val Micro f1 0.8053 | Val Macro f1 0.8039
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.5442 | Train Micro f1 0.7800 | Train Macro f1 0.7780 | Val Loss 0.5750 | Val Micro f1 0.8074 | Val Macro f1 0.8061
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.5259 | Train Micro f1 0.8100 | Train Macro f1 0.8100 | Val Loss 0.5782 | Val Micro f1 0.8074 | Val Macro f1 0.8061
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.5394 | Train Micro f1 0.7850 | Train Macro f1 0.7849 | Val Loss 0.5806 | Val Micro f1 0.8031 | Val Macro f1 0.8015
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.5583 | Train Micro f1 0.7800 | Train Macro f1 0.7794 | Val Loss 0.5832 | Val Micro f1 0.8020 | Val Macro f1 0.8004
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.5509 | Train Micro f1 0.8000 | Train Macro f1 0.8010 | Val Loss 0.5845 | Val Micro f1 0.7976 | Val Macro f1 0.7959
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.5393 | Train Micro f1 0.7900 | Train Macro f1 0.7899 | Val Loss 0.5856 | Val Micro f1 0.8009 | Val Macro f1 0.7991
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.5044 | Train Micro f1 0.8150 | Train Macro f1 0.8145 | Val Loss 0.5854 | Val Micro f1 0.8053 | Val Macro f1 0.8035
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.5844 | Train Micro f1 0.7650 | Train Macro f1 0.7681 | Val Loss 0.5861 | Val Micro f1 0.8053 | Val Macro f1 0.8038
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.6085 | Train Micro f1 0.7700 | Train Macro f1 0.7720 | Val Loss 0.5868 | Val Micro f1 0.8063 | Val Macro f1 0.8050
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.5837 | Train Micro f1 0.7650 | Train Macro f1 0.7634 | Val Loss 0.5874 | Val Micro f1 0.8053 | Val Macro f1 0.8039
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.5186 | Train Micro f1 0.8000 | Train Macro f1 0.8004 | Val Loss 0.5878 | Val Micro f1 0.8009 | Val Macro f1 0.7996
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.5925 | Train Micro f1 0.7900 | Train Macro f1 0.7896 | Val Loss 0.5872 | Val Micro f1 0.8009 | Val Macro f1 0.7996
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.5637 | Train Micro f1 0.7900 | Train Macro f1 0.7889 | Val Loss 0.5878 | Val Micro f1 0.7998 | Val Macro f1 0.7985
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.4992 | Train Micro f1 0.8400 | Train Macro f1 0.8398 | Val Loss 0.5882 | Val Micro f1 0.7965 | Val Macro f1 0.7951
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.5595 | Train Micro f1 0.7850 | Train Macro f1 0.7859 | Val Loss 0.5884 | Val Micro f1 0.7965 | Val Macro f1 0.7951
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.5057 | Train Micro f1 0.8150 | Train Macro f1 0.8149 | Val Loss 0.5886 | Val Micro f1 0.7943 | Val Macro f1 0.7928
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.5201 | Train Micro f1 0.8000 | Train Macro f1 0.7997 | Val Loss 0.5891 | Val Micro f1 0.7932 | Val Macro f1 0.7916
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.5484 | Train Micro f1 0.7850 | Train Macro f1 0.7851 | Val Loss 0.5896 | Val Micro f1 0.7910 | Val Macro f1 0.7894
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.5603 | Train Micro f1 0.7900 | Train Macro f1 0.7891 | Val Loss 0.5903 | Val Micro f1 0.7910 | Val Macro f1 0.7893
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.4744 | Train Micro f1 0.8800 | Train Macro f1 0.8797 | Val Loss 0.5917 | Val Micro f1 0.7899 | Val Macro f1 0.7882
+Epoch 1 | Train Loss 0.8717 | Train Micro f1 0.6900 | Train Macro f1 0.6912 | Val Loss 0.5344 | Val Micro f1 0.8293 | Val Macro f1 0.8277
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 2 | Train Loss 0.7558 | Train Micro f1 0.7250 | Train Macro f1 0.7246 | Val Loss 0.5351 | Val Micro f1 0.8271 | Val Macro f1 0.8256
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 3 | Train Loss 0.7706 | Train Micro f1 0.6900 | Train Macro f1 0.6901 | Val Loss 0.5367 | Val Micro f1 0.8271 | Val Macro f1 0.8255
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 4 | Train Loss 0.7682 | Train Micro f1 0.7050 | Train Macro f1 0.7068 | Val Loss 0.5367 | Val Micro f1 0.8271 | Val Macro f1 0.8255
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.7644 | Train Micro f1 0.6900 | Train Macro f1 0.6903 | Val Loss 0.5371 | Val Micro f1 0.8271 | Val Macro f1 0.8254
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.7426 | Train Micro f1 0.7300 | Train Macro f1 0.7323 | Val Loss 0.5382 | Val Micro f1 0.8260 | Val Macro f1 0.8246
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.7798 | Train Micro f1 0.7000 | Train Macro f1 0.7018 | Val Loss 0.5392 | Val Micro f1 0.8282 | Val Macro f1 0.8268
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.7279 | Train Micro f1 0.7000 | Train Macro f1 0.6999 | Val Loss 0.5417 | Val Micro f1 0.8260 | Val Macro f1 0.8247
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.7036 | Train Micro f1 0.7250 | Train Macro f1 0.7247 | Val Loss 0.5472 | Val Micro f1 0.8282 | Val Macro f1 0.8268
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.7416 | Train Micro f1 0.7350 | Train Macro f1 0.7389 | Val Loss 0.5567 | Val Micro f1 0.8228 | Val Macro f1 0.8214
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.7247 | Train Micro f1 0.7300 | Train Macro f1 0.7314 | Val Loss 0.5643 | Val Micro f1 0.8206 | Val Macro f1 0.8194
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.7538 | Train Micro f1 0.6750 | Train Macro f1 0.6786 | Val Loss 0.5708 | Val Micro f1 0.8217 | Val Macro f1 0.8202
+Epoch 13 | Train Loss 0.7861 | Train Micro f1 0.7100 | Train Macro f1 0.7103 | Val Loss 0.5706 | Val Micro f1 0.8293 | Val Macro f1 0.8274
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.6801 | Train Micro f1 0.7300 | Train Macro f1 0.7289 | Val Loss 0.5570 | Val Micro f1 0.8260 | Val Macro f1 0.8245
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.6920 | Train Micro f1 0.7700 | Train Macro f1 0.7696 | Val Loss 0.5479 | Val Micro f1 0.8271 | Val Macro f1 0.8255
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.6868 | Train Micro f1 0.7200 | Train Macro f1 0.7194 | Val Loss 0.5443 | Val Micro f1 0.8239 | Val Macro f1 0.8222
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.6382 | Train Micro f1 0.7200 | Train Macro f1 0.7202 | Val Loss 0.5424 | Val Micro f1 0.8239 | Val Macro f1 0.8221
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.6354 | Train Micro f1 0.7700 | Train Macro f1 0.7672 | Val Loss 0.5414 | Val Micro f1 0.8249 | Val Macro f1 0.8232
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.6523 | Train Micro f1 0.7400 | Train Macro f1 0.7410 | Val Loss 0.5435 | Val Micro f1 0.8217 | Val Macro f1 0.8196
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.6546 | Train Micro f1 0.7100 | Train Macro f1 0.7095 | Val Loss 0.5445 | Val Micro f1 0.8228 | Val Macro f1 0.8207
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.5683 | Train Micro f1 0.7750 | Train Macro f1 0.7766 | Val Loss 0.5460 | Val Micro f1 0.8206 | Val Macro f1 0.8185
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.5985 | Train Micro f1 0.7700 | Train Macro f1 0.7694 | Val Loss 0.5488 | Val Micro f1 0.8206 | Val Macro f1 0.8185
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.6154 | Train Micro f1 0.7350 | Train Macro f1 0.7334 | Val Loss 0.5504 | Val Micro f1 0.8173 | Val Macro f1 0.8152
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.5666 | Train Micro f1 0.7950 | Train Macro f1 0.7957 | Val Loss 0.5500 | Val Micro f1 0.8173 | Val Macro f1 0.8152
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.5621 | Train Micro f1 0.7750 | Train Macro f1 0.7783 | Val Loss 0.5490 | Val Micro f1 0.8184 | Val Macro f1 0.8164
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.5931 | Train Micro f1 0.7700 | Train Macro f1 0.7706 | Val Loss 0.5498 | Val Micro f1 0.8173 | Val Macro f1 0.8153
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.6258 | Train Micro f1 0.7350 | Train Macro f1 0.7349 | Val Loss 0.5510 | Val Micro f1 0.8140 | Val Macro f1 0.8119
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.6169 | Train Micro f1 0.7500 | Train Macro f1 0.7521 | Val Loss 0.5517 | Val Micro f1 0.8107 | Val Macro f1 0.8084
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.5153 | Train Micro f1 0.7850 | Train Macro f1 0.7874 | Val Loss 0.5524 | Val Micro f1 0.8096 | Val Macro f1 0.8072
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.5707 | Train Micro f1 0.7800 | Train Macro f1 0.7791 | Val Loss 0.5544 | Val Micro f1 0.8107 | Val Macro f1 0.8082
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.5530 | Train Micro f1 0.7800 | Train Macro f1 0.7796 | Val Loss 0.5563 | Val Micro f1 0.8107 | Val Macro f1 0.8084
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.5392 | Train Micro f1 0.8250 | Train Macro f1 0.8249 | Val Loss 0.5595 | Val Micro f1 0.8074 | Val Macro f1 0.8050
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.4993 | Train Micro f1 0.8100 | Train Macro f1 0.8099 | Val Loss 0.5623 | Val Micro f1 0.8074 | Val Macro f1 0.8053
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.5260 | Train Micro f1 0.7900 | Train Macro f1 0.7912 | Val Loss 0.5653 | Val Micro f1 0.8063 | Val Macro f1 0.8043
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.5193 | Train Micro f1 0.8350 | Train Macro f1 0.8352 | Val Loss 0.5675 | Val Micro f1 0.8042 | Val Macro f1 0.8023
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.5713 | Train Micro f1 0.7900 | Train Macro f1 0.7897 | Val Loss 0.5706 | Val Micro f1 0.8042 | Val Macro f1 0.8023
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.5651 | Train Micro f1 0.7950 | Train Macro f1 0.7958 | Val Loss 0.5731 | Val Micro f1 0.8009 | Val Macro f1 0.7990
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.5367 | Train Micro f1 0.7850 | Train Macro f1 0.7862 | Val Loss 0.5739 | Val Micro f1 0.7987 | Val Macro f1 0.7968
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.5516 | Train Micro f1 0.7750 | Train Macro f1 0.7749 | Val Loss 0.5747 | Val Micro f1 0.7987 | Val Macro f1 0.7967
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.5174 | Train Micro f1 0.7950 | Train Macro f1 0.7965 | Val Loss 0.5751 | Val Micro f1 0.7987 | Val Macro f1 0.7966
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.5257 | Train Micro f1 0.8050 | Train Macro f1 0.8060 | Val Loss 0.5751 | Val Micro f1 0.7987 | Val Macro f1 0.7964
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.5349 | Train Micro f1 0.8150 | Train Macro f1 0.8152 | Val Loss 0.5760 | Val Micro f1 0.7976 | Val Macro f1 0.7951
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.5697 | Train Micro f1 0.8100 | Train Macro f1 0.8127 | Val Loss 0.5765 | Val Micro f1 0.7965 | Val Macro f1 0.7937
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.5019 | Train Micro f1 0.8350 | Train Macro f1 0.8359 | Val Loss 0.5774 | Val Micro f1 0.7954 | Val Macro f1 0.7922
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.5186 | Train Micro f1 0.8150 | Train Macro f1 0.8156 | Val Loss 0.5785 | Val Micro f1 0.7943 | Val Macro f1 0.7910
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.4760 | Train Micro f1 0.8450 | Train Macro f1 0.8461 | Val Loss 0.5805 | Val Micro f1 0.7921 | Val Macro f1 0.7888
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.5305 | Train Micro f1 0.8100 | Train Macro f1 0.8088 | Val Loss 0.5822 | Val Micro f1 0.7899 | Val Macro f1 0.7867
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.5358 | Train Micro f1 0.8400 | Train Macro f1 0.8374 | Val Loss 0.5845 | Val Micro f1 0.7877 | Val Macro f1 0.7844
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.4414 | Train Micro f1 0.8500 | Train Macro f1 0.8510 | Val Loss 0.5864 | Val Micro f1 0.7877 | Val Macro f1 0.7844
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.4851 | Train Micro f1 0.8350 | Train Macro f1 0.8360 | Val Loss 0.5884 | Val Micro f1 0.7856 | Val Macro f1 0.7823
+Epoch 1 | Train Loss 0.9035 | Train Micro f1 0.6800 | Train Macro f1 0.6806 | Val Loss 0.5135 | Val Micro f1 0.8173 | Val Macro f1 0.8149
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 2 | Train Loss 0.8507 | Train Micro f1 0.6650 | Train Macro f1 0.6640 | Val Loss 0.5149 | Val Micro f1 0.8162 | Val Macro f1 0.8138
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 3 | Train Loss 0.9939 | Train Micro f1 0.6700 | Train Macro f1 0.6707 | Val Loss 0.5159 | Val Micro f1 0.8162 | Val Macro f1 0.8138
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 4 | Train Loss 0.7889 | Train Micro f1 0.7550 | Train Macro f1 0.7559 | Val Loss 0.5169 | Val Micro f1 0.8184 | Val Macro f1 0.8157
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.7761 | Train Micro f1 0.6750 | Train Macro f1 0.6739 | Val Loss 0.5187 | Val Micro f1 0.8217 | Val Macro f1 0.8192
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.8235 | Train Micro f1 0.6600 | Train Macro f1 0.6596 | Val Loss 0.5226 | Val Micro f1 0.8217 | Val Macro f1 0.8193
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.8090 | Train Micro f1 0.6900 | Train Macro f1 0.6899 | Val Loss 0.5304 | Val Micro f1 0.8228 | Val Macro f1 0.8203
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.7733 | Train Micro f1 0.6800 | Train Macro f1 0.6807 | Val Loss 0.5461 | Val Micro f1 0.8249 | Val Macro f1 0.8225
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.8044 | Train Micro f1 0.6650 | Train Macro f1 0.6652 | Val Loss 0.5741 | Val Micro f1 0.8228 | Val Macro f1 0.8200
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.8543 | Train Micro f1 0.6800 | Train Macro f1 0.6788 | Val Loss 0.6236 | Val Micro f1 0.8184 | Val Macro f1 0.8150
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.7680 | Train Micro f1 0.7350 | Train Macro f1 0.7351 | Val Loss 0.6038 | Val Micro f1 0.8129 | Val Macro f1 0.8091
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.7553 | Train Micro f1 0.7200 | Train Macro f1 0.7211 | Val Loss 0.5663 | Val Micro f1 0.8173 | Val Macro f1 0.8137
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.7630 | Train Micro f1 0.7100 | Train Macro f1 0.7099 | Val Loss 0.5446 | Val Micro f1 0.8140 | Val Macro f1 0.8109
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.7144 | Train Micro f1 0.7200 | Train Macro f1 0.7215 | Val Loss 0.5347 | Val Micro f1 0.8162 | Val Macro f1 0.8133
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.7381 | Train Micro f1 0.7100 | Train Macro f1 0.7104 | Val Loss 0.5306 | Val Micro f1 0.8184 | Val Macro f1 0.8159
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.6740 | Train Micro f1 0.7350 | Train Macro f1 0.7350 | Val Loss 0.5280 | Val Micro f1 0.8173 | Val Macro f1 0.8148
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.6476 | Train Micro f1 0.7300 | Train Macro f1 0.7301 | Val Loss 0.5273 | Val Micro f1 0.8184 | Val Macro f1 0.8158
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.6431 | Train Micro f1 0.7600 | Train Macro f1 0.7604 | Val Loss 0.5282 | Val Micro f1 0.8173 | Val Macro f1 0.8146
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.6937 | Train Micro f1 0.7300 | Train Macro f1 0.7297 | Val Loss 0.5302 | Val Micro f1 0.8151 | Val Macro f1 0.8123
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.6868 | Train Micro f1 0.7300 | Train Macro f1 0.7305 | Val Loss 0.5283 | Val Micro f1 0.8173 | Val Macro f1 0.8145
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.6596 | Train Micro f1 0.7350 | Train Macro f1 0.7347 | Val Loss 0.5299 | Val Micro f1 0.8162 | Val Macro f1 0.8128
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.6657 | Train Micro f1 0.7600 | Train Macro f1 0.7589 | Val Loss 0.5316 | Val Micro f1 0.8184 | Val Macro f1 0.8147
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.7352 | Train Micro f1 0.6850 | Train Macro f1 0.6854 | Val Loss 0.5327 | Val Micro f1 0.8162 | Val Macro f1 0.8124
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.6590 | Train Micro f1 0.7250 | Train Macro f1 0.7236 | Val Loss 0.5331 | Val Micro f1 0.8162 | Val Macro f1 0.8125
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.6548 | Train Micro f1 0.7450 | Train Macro f1 0.7448 | Val Loss 0.5344 | Val Micro f1 0.8173 | Val Macro f1 0.8132
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.6818 | Train Micro f1 0.7350 | Train Macro f1 0.7358 | Val Loss 0.5359 | Val Micro f1 0.8173 | Val Macro f1 0.8130
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.6835 | Train Micro f1 0.7800 | Train Macro f1 0.7759 | Val Loss 0.5380 | Val Micro f1 0.8129 | Val Macro f1 0.8082
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.6607 | Train Micro f1 0.7150 | Train Macro f1 0.7158 | Val Loss 0.5394 | Val Micro f1 0.8140 | Val Macro f1 0.8096
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.6533 | Train Micro f1 0.7350 | Train Macro f1 0.7342 | Val Loss 0.5415 | Val Micro f1 0.8118 | Val Macro f1 0.8074
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.5908 | Train Micro f1 0.7750 | Train Macro f1 0.7741 | Val Loss 0.5431 | Val Micro f1 0.8140 | Val Macro f1 0.8094
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.5797 | Train Micro f1 0.7950 | Train Macro f1 0.7953 | Val Loss 0.5441 | Val Micro f1 0.8129 | Val Macro f1 0.8081
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.5593 | Train Micro f1 0.8050 | Train Macro f1 0.8042 | Val Loss 0.5464 | Val Micro f1 0.8118 | Val Macro f1 0.8066
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.5843 | Train Micro f1 0.7450 | Train Macro f1 0.7448 | Val Loss 0.5487 | Val Micro f1 0.8107 | Val Macro f1 0.8064
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.5754 | Train Micro f1 0.7650 | Train Macro f1 0.7646 | Val Loss 0.5507 | Val Micro f1 0.8085 | Val Macro f1 0.8036
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.5270 | Train Micro f1 0.8050 | Train Macro f1 0.8052 | Val Loss 0.5527 | Val Micro f1 0.8096 | Val Macro f1 0.8049
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.6222 | Train Micro f1 0.7500 | Train Macro f1 0.7499 | Val Loss 0.5546 | Val Micro f1 0.8085 | Val Macro f1 0.8039
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.6259 | Train Micro f1 0.7650 | Train Macro f1 0.7654 | Val Loss 0.5562 | Val Micro f1 0.8085 | Val Macro f1 0.8043
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.5436 | Train Micro f1 0.8100 | Train Macro f1 0.8094 | Val Loss 0.5578 | Val Micro f1 0.8063 | Val Macro f1 0.8021
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.5566 | Train Micro f1 0.7950 | Train Macro f1 0.7952 | Val Loss 0.5598 | Val Micro f1 0.8063 | Val Macro f1 0.8022
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.5654 | Train Micro f1 0.7900 | Train Macro f1 0.7899 | Val Loss 0.5620 | Val Micro f1 0.8063 | Val Macro f1 0.8023
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.5632 | Train Micro f1 0.8000 | Train Macro f1 0.8007 | Val Loss 0.5634 | Val Micro f1 0.8042 | Val Macro f1 0.8004
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.5415 | Train Micro f1 0.8350 | Train Macro f1 0.8346 | Val Loss 0.5653 | Val Micro f1 0.8063 | Val Macro f1 0.8026
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.5856 | Train Micro f1 0.7300 | Train Macro f1 0.7298 | Val Loss 0.5668 | Val Micro f1 0.8074 | Val Macro f1 0.8035
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.5797 | Train Micro f1 0.7700 | Train Macro f1 0.7694 | Val Loss 0.5686 | Val Micro f1 0.8096 | Val Macro f1 0.8054
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.5012 | Train Micro f1 0.8150 | Train Macro f1 0.8153 | Val Loss 0.5703 | Val Micro f1 0.8074 | Val Macro f1 0.8032
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.5669 | Train Micro f1 0.7900 | Train Macro f1 0.7912 | Val Loss 0.5715 | Val Micro f1 0.8063 | Val Macro f1 0.8022
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.5316 | Train Micro f1 0.7750 | Train Macro f1 0.7741 | Val Loss 0.5725 | Val Micro f1 0.8063 | Val Macro f1 0.8020
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.5749 | Train Micro f1 0.7750 | Train Macro f1 0.7746 | Val Loss 0.5733 | Val Micro f1 0.8074 | Val Macro f1 0.8028
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.5601 | Train Micro f1 0.7900 | Train Macro f1 0.7902 | Val Loss 0.5745 | Val Micro f1 0.8063 | Val Macro f1 0.8015
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.4798 | Train Micro f1 0.8200 | Train Macro f1 0.8196 | Val Loss 0.5759 | Val Micro f1 0.8074 | Val Macro f1 0.8022
+aaaaaaaaaaaaaaaaaaaaaaa
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 1 | Train Loss 0.7896 | Train Micro f1 0.7190 | Train Macro f1 0.7168 | Val Loss 0.7031 | Val Micro f1 0.7475 | Val Macro f1 0.7454
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 2 | Train Loss 0.7875 | Train Micro f1 0.7110 | Train Macro f1 0.7098 | Val Loss 0.7002 | Val Micro f1 0.7500 | Val Macro f1 0.7471
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 3 | Train Loss 0.7592 | Train Micro f1 0.7217 | Train Macro f1 0.7181 | Val Loss 0.6969 | Val Micro f1 0.7550 | Val Macro f1 0.7515
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 4 | Train Loss 0.7299 | Train Micro f1 0.7415 | Train Macro f1 0.7393 | Val Loss 0.6885 | Val Micro f1 0.7575 | Val Macro f1 0.7544
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 5 | Train Loss 0.7693 | Train Micro f1 0.7118 | Train Macro f1 0.7066 | Val Loss 0.6814 | Val Micro f1 0.7575 | Val Macro f1 0.7544
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 6 | Train Loss 0.7753 | Train Micro f1 0.7136 | Train Macro f1 0.7099 | Val Loss 0.6780 | Val Micro f1 0.7625 | Val Macro f1 0.7597
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 7 | Train Loss 0.7123 | Train Micro f1 0.7370 | Train Macro f1 0.7363 | Val Loss 0.6740 | Val Micro f1 0.7650 | Val Macro f1 0.7630
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 8 | Train Loss 0.7176 | Train Micro f1 0.7361 | Train Macro f1 0.7337 | Val Loss 0.6652 | Val Micro f1 0.7725 | Val Macro f1 0.7708
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 9 | Train Loss 0.7300 | Train Micro f1 0.7217 | Train Macro f1 0.7182 | Val Loss 0.6574 | Val Micro f1 0.7775 | Val Macro f1 0.7757
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 10 | Train Loss 0.7461 | Train Micro f1 0.7092 | Train Macro f1 0.7077 | Val Loss 0.6514 | Val Micro f1 0.7775 | Val Macro f1 0.7757
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 11 | Train Loss 0.7079 | Train Micro f1 0.7397 | Train Macro f1 0.7401 | Val Loss 0.6465 | Val Micro f1 0.7825 | Val Macro f1 0.7812
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 12 | Train Loss 0.7443 | Train Micro f1 0.7397 | Train Macro f1 0.7385 | Val Loss 0.6432 | Val Micro f1 0.7825 | Val Macro f1 0.7810
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 13 | Train Loss 0.7054 | Train Micro f1 0.7325 | Train Macro f1 0.7313 | Val Loss 0.6413 | Val Micro f1 0.7775 | Val Macro f1 0.7751
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 14 | Train Loss 0.6944 | Train Micro f1 0.7226 | Train Macro f1 0.7195 | Val Loss 0.6408 | Val Micro f1 0.7800 | Val Macro f1 0.7766
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 15 | Train Loss 0.6943 | Train Micro f1 0.7451 | Train Macro f1 0.7429 | Val Loss 0.6426 | Val Micro f1 0.7800 | Val Macro f1 0.7762
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 16 | Train Loss 0.7002 | Train Micro f1 0.7316 | Train Macro f1 0.7284 | Val Loss 0.6439 | Val Micro f1 0.7825 | Val Macro f1 0.7786
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 17 | Train Loss 0.7067 | Train Micro f1 0.7460 | Train Macro f1 0.7411 | Val Loss 0.6435 | Val Micro f1 0.7825 | Val Macro f1 0.7786
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 18 | Train Loss 0.7138 | Train Micro f1 0.7127 | Train Macro f1 0.7083 | Val Loss 0.6414 | Val Micro f1 0.7825 | Val Macro f1 0.7786
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 19 | Train Loss 0.6973 | Train Micro f1 0.7262 | Train Macro f1 0.7228 | Val Loss 0.6393 | Val Micro f1 0.7825 | Val Macro f1 0.7786
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 20 | Train Loss 0.6941 | Train Micro f1 0.7316 | Train Macro f1 0.7286 | Val Loss 0.6343 | Val Micro f1 0.7850 | Val Macro f1 0.7818
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 21 | Train Loss 0.7070 | Train Micro f1 0.7325 | Train Macro f1 0.7292 | Val Loss 0.6295 | Val Micro f1 0.7975 | Val Macro f1 0.7951
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 22 | Train Loss 0.6626 | Train Micro f1 0.7558 | Train Macro f1 0.7536 | Val Loss 0.6267 | Val Micro f1 0.7975 | Val Macro f1 0.7950
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 23 | Train Loss 0.6586 | Train Micro f1 0.7657 | Train Macro f1 0.7646 | Val Loss 0.6229 | Val Micro f1 0.7950 | Val Macro f1 0.7931
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 24 | Train Loss 0.7043 | Train Micro f1 0.7307 | Train Macro f1 0.7284 | Val Loss 0.6202 | Val Micro f1 0.7975 | Val Macro f1 0.7959
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 25 | Train Loss 0.7002 | Train Micro f1 0.7379 | Train Macro f1 0.7367 | Val Loss 0.6187 | Val Micro f1 0.7950 | Val Macro f1 0.7935
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 26 | Train Loss 0.7063 | Train Micro f1 0.7334 | Train Macro f1 0.7300 | Val Loss 0.6184 | Val Micro f1 0.7950 | Val Macro f1 0.7941
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 27 | Train Loss 0.6957 | Train Micro f1 0.7280 | Train Macro f1 0.7271 | Val Loss 0.6202 | Val Micro f1 0.7925 | Val Macro f1 0.7911
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 28 | Train Loss 0.6840 | Train Micro f1 0.7298 | Train Macro f1 0.7300 | Val Loss 0.6193 | Val Micro f1 0.7950 | Val Macro f1 0.7935
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 29 | Train Loss 0.6848 | Train Micro f1 0.7567 | Train Macro f1 0.7555 | Val Loss 0.6175 | Val Micro f1 0.7975 | Val Macro f1 0.7959
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 30 | Train Loss 0.6924 | Train Micro f1 0.7298 | Train Macro f1 0.7279 | Val Loss 0.6164 | Val Micro f1 0.7975 | Val Macro f1 0.7955
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 31 | Train Loss 0.6599 | Train Micro f1 0.7496 | Train Macro f1 0.7486 | Val Loss 0.6155 | Val Micro f1 0.8000 | Val Macro f1 0.7980
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 32 | Train Loss 0.6440 | Train Micro f1 0.7567 | Train Macro f1 0.7539 | Val Loss 0.6179 | Val Micro f1 0.7900 | Val Macro f1 0.7866
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 33 | Train Loss 0.6855 | Train Micro f1 0.7370 | Train Macro f1 0.7336 | Val Loss 0.6185 | Val Micro f1 0.7875 | Val Macro f1 0.7842
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 34 | Train Loss 0.6692 | Train Micro f1 0.7433 | Train Macro f1 0.7387 | Val Loss 0.6183 | Val Micro f1 0.7875 | Val Macro f1 0.7842
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 35 | Train Loss 0.6792 | Train Micro f1 0.7478 | Train Macro f1 0.7449 | Val Loss 0.6188 | Val Micro f1 0.7875 | Val Macro f1 0.7842
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 36 | Train Loss 0.6746 | Train Micro f1 0.7487 | Train Macro f1 0.7430 | Val Loss 0.6167 | Val Micro f1 0.7875 | Val Macro f1 0.7842
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 37 | Train Loss 0.6815 | Train Micro f1 0.7451 | Train Macro f1 0.7426 | Val Loss 0.6155 | Val Micro f1 0.7900 | Val Macro f1 0.7871
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 38 | Train Loss 0.6542 | Train Micro f1 0.7487 | Train Macro f1 0.7455 | Val Loss 0.6141 | Val Micro f1 0.7900 | Val Macro f1 0.7871
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 39 | Train Loss 0.6588 | Train Micro f1 0.7487 | Train Macro f1 0.7463 | Val Loss 0.6124 | Val Micro f1 0.7900 | Val Macro f1 0.7871
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 40 | Train Loss 0.6907 | Train Micro f1 0.7388 | Train Macro f1 0.7359 | Val Loss 0.6109 | Val Micro f1 0.7975 | Val Macro f1 0.7961
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 41 | Train Loss 0.6620 | Train Micro f1 0.7567 | Train Macro f1 0.7535 | Val Loss 0.6102 | Val Micro f1 0.7950 | Val Macro f1 0.7942
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 42 | Train Loss 0.6896 | Train Micro f1 0.7388 | Train Macro f1 0.7371 | Val Loss 0.6104 | Val Micro f1 0.8000 | Val Macro f1 0.7995
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 43 | Train Loss 0.6817 | Train Micro f1 0.7451 | Train Macro f1 0.7441 | Val Loss 0.6115 | Val Micro f1 0.8000 | Val Macro f1 0.7995
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 44 | Train Loss 0.6694 | Train Micro f1 0.7343 | Train Macro f1 0.7332 | Val Loss 0.6110 | Val Micro f1 0.7975 | Val Macro f1 0.7970
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 45 | Train Loss 0.6764 | Train Micro f1 0.7361 | Train Macro f1 0.7351 | Val Loss 0.6103 | Val Micro f1 0.8000 | Val Macro f1 0.7995
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 46 | Train Loss 0.6813 | Train Micro f1 0.7433 | Train Macro f1 0.7423 | Val Loss 0.6091 | Val Micro f1 0.7975 | Val Macro f1 0.7969
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 47 | Train Loss 0.6656 | Train Micro f1 0.7540 | Train Macro f1 0.7510 | Val Loss 0.6104 | Val Micro f1 0.7975 | Val Macro f1 0.7969
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 48 | Train Loss 0.6399 | Train Micro f1 0.7549 | Train Macro f1 0.7525 | Val Loss 0.6099 | Val Micro f1 0.8025 | Val Macro f1 0.8018
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 49 | Train Loss 0.6172 | Train Micro f1 0.7666 | Train Macro f1 0.7647 | Val Loss 0.6096 | Val Micro f1 0.8050 | Val Macro f1 0.8039
+a0
+EarlyStopping counter: {self.counter} out of {self.patience}
+Epoch 50 | Train Loss 0.6324 | Train Micro f1 0.7567 | Train Macro f1 0.7551 | Val Loss 0.6088 | Val Micro f1 0.8050 | Val Macro f1 0.8039
+a0
+a1
+a2
+Test loss 0.5759 | Test Micro f1 0.8103 | Test Macro f1 0.7973
+              precision    recall  f1-score   support
+           0     0.8589    0.8484    0.8536       897
+           1     0.6708    0.7236    0.6962       445
+           2     0.8109    0.8269    0.8188       809
+           3     0.8453    0.7975    0.8207       706
+    accuracy                         0.8103      2857
+   macro avg     0.7965    0.7991    0.7973      2857
+weighted avg     0.8127    0.8103    0.8111      2857

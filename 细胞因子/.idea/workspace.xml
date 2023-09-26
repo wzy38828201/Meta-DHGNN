@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5225c2ab-0eda-4658-b13c-3ce61e3603ea" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://G:/元学习/Meta-GNN-master原程序3/Meta-GNN-master/gcn_fewshot/citation.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/CRS预测/程序分析/分类预测/决策树可视化/CRES易发体质分类预测.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/CRS预测/程序分析/回归预测/CRES/CRES当前逻辑回归预测.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code/特征矩阵.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/CRS预测/程序分析/分类预测/决策树可视化/CRS所有因子合并预测决策树可视化原.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/CRS预测/程序分析/回归预测/CRES/CRES易发体质回归预测儿童暂时.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/CRS预测/程序分析/分类预测/决策树可视化/xgb_visualization/批量生成/病人体质易不易发生CRS预测/易发体质分类预测儿童暂时.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code/Citation.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/utilsgcn.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/画图.py/getlosses.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/画图.py/deal_prob.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/画图.py/draw.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/get_adj.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/画图.py/PR曲线.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/model_hetero.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/画图.py/plt_roc.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/特征矩阵.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../dglhan改/实验/标签分类程序.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/model.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/modelsgcn.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/gatconv.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/CRS预测/程序分析/分类预测/决策树可视化/CRES错位预测.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/元学习/Meta-GNN-master/gcn_fewshot/1769/标签分类/标签分类程序.py" root0="SKIP_INSPECTION" />
+    <setting file="file://F:/anaconda/Anaconda2/Lib/site-packages/sklearn/metrics/_classification.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main - GCN.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/邻接矩阵.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/utils.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="2CSazNNAFkPRW1JbsN4DRiqEtiF" />
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.PR曲线">
+    <configuration name="CRES易发体质分类预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dglhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="G:/CRS预测/程序分析/分类预测/决策树可视化" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="G:/CRS预测/程序分析/分类预测/决策树可视化/CRES易发体质分类预测.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PR曲线" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dglhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/画图.py" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/画图.py/PR曲线.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deal_prob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dglhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/画图.py" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/画图.py/deal_prob.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dglhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../dglhan_all_code20220914" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../dglhan_all_code20220914/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dglhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plt_roc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dglhan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/画图.py" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/画图.py/plt_roc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.PR曲线" />
+        <item itemvalue="Python.plt_roc" />
+        <item itemvalue="Python.deal_prob" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5225c2ab-0eda-4658-b13c-3ce61e3603ea" name="默认的" comment="" />
+      <created>1658798700552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658798700552</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main - GCN.py</url>
+          <line>182</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main - GCN.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main - GCN.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utilsgcn.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
