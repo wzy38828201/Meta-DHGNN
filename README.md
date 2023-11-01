@@ -1,13 +1,13 @@
-## 用法
-=> 1. data文件夹下包含ACM和IMDB数据集，其中imdb文件夹下IMDB的数据是依据原始文件重新处理的。
+## Usage
+=> 1. The data folder contains ACM and IMDB data sets. The imdb data in the IMDB folder is reprocessed based on the original file.
 
-=> 2. ACM运行命令：`python main.py --dataset ACM`；IMDB运行命令：`python main.py --dataset IMDB`；
+=> 2. ACM run command：`python main.py --dataset ACM`；IMDB run command：`python main.py --dataset IMDB`；
 
-=> 3. 模型参数已写到`main.py`函数，可以直接在`main.py`调整参数
+=> 3. The model parameters have been written to the `main.py` function and can be adjusted directly in `main.py`.
 
-=> 4. 调参除了个人在`main.py`挨个调整，还可使用`run.py`调参，详情参见`run.py`。
+=> 4. In addition to individual adjustments in `main.py`, you can also use `run.py`, see `run.py` for details.
 
-## 参数设置
+## Parameter setting
 `dglhan:`
 
 ACM:`{'lr2': 0.01, 'num_heads': [8], 'hidden_units': 8, 'dropout': 0.7, 'weight_decay2': 0.001, 'num_epochs1': 149, 'patience': 100}`
